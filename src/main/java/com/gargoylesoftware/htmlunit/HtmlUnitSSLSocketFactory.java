@@ -40,12 +40,12 @@ import javax.net.ssl.SSLSocket;
 import javax.net.ssl.TrustManager;
 import javax.net.ssl.X509TrustManager;
 
-import org.apache.http.HttpHost;
-import org.apache.http.conn.ConnectTimeoutException;
-import org.apache.http.conn.ssl.SSLSocketFactory;
-import org.apache.http.conn.ssl.X509HostnameVerifier;
-import org.apache.http.params.HttpConnectionParams;
-import org.apache.http.params.HttpParams;
+import org.apache.android.http.HttpHost;
+import org.apache.android.http.conn.ConnectTimeoutException;
+import org.apache.android.http.conn.ssl.SSLSocketFactory;
+import org.apache.android.http.conn.ssl.X509HostnameVerifier;
+import org.apache.android.http.params.HttpConnectionParams;
+import org.apache.android.http.params.HttpParams;
 
 /**
  * Socket factory offering facilities for insecure SSL and for SOCKS proxy support.
@@ -155,7 +155,7 @@ final class HtmlUnitSSLSocketFactory extends SSLSocketFactory {
 
     private javax.net.ssl.SSLSocketFactory getSSLSocketFactory() {
         try {
-            final Field field = org.apache.http.conn.ssl.SSLSocketFactory.class.getDeclaredField("socketfactory");
+            final Field field = org.apache.android.http.conn.ssl.SSLSocketFactory.class.getDeclaredField("socketfactory");
             field.setAccessible(true);
             return (javax.net.ssl.SSLSocketFactory) field.get(this);
         }

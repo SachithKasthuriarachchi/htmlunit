@@ -20,11 +20,11 @@ import java.io.ObjectOutputStream;
 import java.io.Serializable;
 import java.util.HashMap;
 
-import org.apache.http.auth.AuthScope;
-import org.apache.http.auth.Credentials;
-import org.apache.http.auth.NTCredentials;
-import org.apache.http.auth.UsernamePasswordCredentials;
-import org.apache.http.client.CredentialsProvider;
+import org.apache.android.http.auth.AuthScope;
+import org.apache.android.http.auth.Credentials;
+import org.apache.android.http.auth.NTCredentials;
+import org.apache.android.http.auth.UsernamePasswordCredentials;
+import org.apache.android.http.client.CredentialsProvider;
 
 /**
  * Default HtmlUnit implementation of the <tt>CredentialsProvider</tt> interface. Provides

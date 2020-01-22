@@ -35,17 +35,17 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import org.apache.commons.io.IOUtils;
-import org.apache.http.HttpEntity;
-import org.apache.http.HttpResponse;
-import org.apache.http.HttpStatus;
-import org.apache.http.ProtocolVersion;
-import org.apache.http.StatusLine;
-import org.apache.http.entity.StringEntity;
-import org.apache.http.entity.mime.MultipartEntityBuilder;
-import org.apache.http.impl.client.AbstractHttpClient;
-import org.apache.http.impl.client.DefaultHttpClient;
-import org.apache.http.message.BasicHttpResponse;
-import org.apache.http.message.BasicStatusLine;
+import org.apache.android.http.HttpEntity;
+import org.apache.android.http.HttpResponse;
+import org.apache.android.http.HttpStatus;
+import org.apache.android.http.ProtocolVersion;
+import org.apache.android.http.StatusLine;
+import org.apache.android.http.entity.StringEntity;
+import org.apache.android.http.entity.mime.MultipartEntityBuilder;
+import org.apache.android.http.impl.client.AbstractHttpClient;
+import org.apache.android.http.impl.client.DefaultHttpClient;
+import org.apache.android.http.message.BasicHttpResponse;
+import org.apache.android.http.message.BasicStatusLine;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.junit.Assert;
@@ -357,7 +357,7 @@ public class HttpWebConnectionTest extends WebServerTestCase {
     @Test
     @Alerts(DEFAULT = {"Host", "User-Agent" }, IE = { })
     public void hostHeaderFirst() throws Exception {
-        final Logger logger = Logger.getLogger("org.apache.http.headers");
+        final Logger logger = Logger.getLogger("org.apache.android.http.headers");
         final Level oldLevel = logger.getLevel();
         logger.setLevel(Level.DEBUG);
 

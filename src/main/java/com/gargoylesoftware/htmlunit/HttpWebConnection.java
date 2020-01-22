@@ -42,62 +42,62 @@ import javax.net.ssl.SSLPeerUnverifiedException;
 
 import org.apache.commons.io.IOUtils;
 import org.apache.commons.lang3.StringUtils;
-import org.apache.http.Header;
-import org.apache.http.HttpEntity;
-import org.apache.http.HttpEntityEnclosingRequest;
-import org.apache.http.HttpHost;
-import org.apache.http.HttpRequest;
-import org.apache.http.HttpResponse;
-import org.apache.http.ProtocolException;
-import org.apache.http.auth.AuthScope;
-import org.apache.http.auth.Credentials;
-import org.apache.http.client.CookieStore;
-import org.apache.http.client.CredentialsProvider;
-import org.apache.http.client.methods.HttpDelete;
-import org.apache.http.client.methods.HttpGet;
-import org.apache.http.client.methods.HttpHead;
-import org.apache.http.client.methods.HttpOptions;
-import org.apache.http.client.methods.HttpPost;
-import org.apache.http.client.methods.HttpPut;
-import org.apache.http.client.methods.HttpRequestBase;
-import org.apache.http.client.methods.HttpTrace;
-import org.apache.http.client.methods.HttpUriRequest;
-import org.apache.http.client.params.ClientPNames;
-import org.apache.http.client.params.HttpClientParams;
-import org.apache.http.client.utils.DateUtils;
-import org.apache.http.client.utils.URIUtils;
-import org.apache.http.client.utils.URLEncodedUtils;
-import org.apache.http.conn.params.ConnRoutePNames;
-import org.apache.http.conn.scheme.Scheme;
-import org.apache.http.conn.scheme.SchemeRegistry;
-import org.apache.http.conn.ssl.SSLSocketFactory;
-import org.apache.http.cookie.ClientCookie;
-import org.apache.http.cookie.Cookie;
-import org.apache.http.cookie.CookieAttributeHandler;
-import org.apache.http.cookie.CookieOrigin;
-import org.apache.http.cookie.CookiePathComparator;
-import org.apache.http.cookie.CookieSpec;
-import org.apache.http.cookie.CookieSpecFactory;
-import org.apache.http.cookie.MalformedCookieException;
-import org.apache.http.cookie.SetCookie;
-import org.apache.http.cookie.params.CookieSpecPNames;
-import org.apache.http.entity.ContentType;
-import org.apache.http.entity.StringEntity;
-import org.apache.http.entity.mime.MultipartEntityBuilder;
-import org.apache.http.entity.mime.content.InputStreamBody;
-import org.apache.http.impl.client.AbstractHttpClient;
-import org.apache.http.impl.client.DefaultHttpClient;
-import org.apache.http.impl.client.DefaultRedirectStrategy;
-import org.apache.http.impl.conn.PoolingClientConnectionManager;
-import org.apache.http.impl.cookie.BasicClientCookie;
-import org.apache.http.impl.cookie.BasicPathHandler;
-import org.apache.http.impl.cookie.BrowserCompatSpec;
-import org.apache.http.message.BasicHeader;
-import org.apache.http.params.BasicHttpParams;
-import org.apache.http.params.CoreConnectionPNames;
-import org.apache.http.params.HttpParams;
-import org.apache.http.protocol.BasicHttpContext;
-import org.apache.http.protocol.HttpContext;
+import org.apache.android.http.Header;
+import org.apache.android.http.HttpEntity;
+import org.apache.android.http.HttpEntityEnclosingRequest;
+import org.apache.android.http.HttpHost;
+import org.apache.android.http.HttpRequest;
+import org.apache.android.http.HttpResponse;
+import org.apache.android.http.ProtocolException;
+import org.apache.android.http.auth.AuthScope;
+import org.apache.android.http.auth.Credentials;
+import org.apache.android.http.client.CookieStore;
+import org.apache.android.http.client.CredentialsProvider;
+import org.apache.android.http.client.methods.HttpDelete;
+import org.apache.android.http.client.methods.HttpGet;
+import org.apache.android.http.client.methods.HttpHead;
+import org.apache.android.http.client.methods.HttpOptions;
+import org.apache.android.http.client.methods.HttpPost;
+import org.apache.android.http.client.methods.HttpPut;
+import org.apache.android.http.client.methods.HttpRequestBase;
+import org.apache.android.http.client.methods.HttpTrace;
+import org.apache.android.http.client.methods.HttpUriRequest;
+import org.apache.android.http.client.params.ClientPNames;
+import org.apache.android.http.client.params.HttpClientParams;
+import org.apache.android.http.client.utils.DateUtils;
+import org.apache.android.http.client.utils.URIUtils;
+import org.apache.android.http.client.utils.URLEncodedUtils;
+import org.apache.android.http.conn.params.ConnRoutePNames;
+import org.apache.android.http.conn.scheme.Scheme;
+import org.apache.android.http.conn.scheme.SchemeRegistry;
+import org.apache.android.http.conn.ssl.SSLSocketFactory;
+import org.apache.android.http.cookie.ClientCookie;
+import org.apache.android.http.cookie.Cookie;
+import org.apache.android.http.cookie.CookieAttributeHandler;
+import org.apache.android.http.cookie.CookieOrigin;
+import org.apache.android.http.cookie.CookiePathComparator;
+import org.apache.android.http.cookie.CookieSpec;
+import org.apache.android.http.cookie.CookieSpecFactory;
+import org.apache.android.http.cookie.MalformedCookieException;
+import org.apache.android.http.cookie.SetCookie;
+import org.apache.android.http.cookie.params.CookieSpecPNames;
+import org.apache.android.http.entity.ContentType;
+import org.apache.android.http.entity.StringEntity;
+import org.apache.android.http.entity.mime.MultipartEntityBuilder;
+import org.apache.android.http.entity.mime.content.InputStreamBody;
+import org.apache.android.http.impl.client.AbstractHttpClient;
+import org.apache.android.http.impl.client.DefaultHttpClient;
+import org.apache.android.http.impl.client.DefaultRedirectStrategy;
+import org.apache.android.http.impl.conn.PoolingClientConnectionManager;
+import org.apache.android.http.impl.cookie.BasicClientCookie;
+import org.apache.android.http.impl.cookie.BasicPathHandler;
+import org.apache.android.http.impl.cookie.BrowserCompatSpec;
+import org.apache.android.http.message.BasicHeader;
+import org.apache.android.http.params.BasicHttpParams;
+import org.apache.android.http.params.CoreConnectionPNames;
+import org.apache.android.http.params.HttpParams;
+import org.apache.android.http.protocol.BasicHttpContext;
+import org.apache.android.http.protocol.HttpContext;
 
 import com.gargoylesoftware.htmlunit.util.KeyDataPair;
 import com.gargoylesoftware.htmlunit.util.NameValuePair;
@@ -258,7 +258,7 @@ public class HttpWebConnection implements WebConnection {
             // this is the case for GET as well as TRACE, DELETE, OPTIONS and HEAD
             if (!webRequest.getRequestParameters().isEmpty()) {
                 final List<NameValuePair> pairs = webRequest.getRequestParameters();
-                final org.apache.http.NameValuePair[] httpClientPairs = NameValuePair.toHttpClient(pairs);
+                final org.apache.android.http.NameValuePair[] httpClientPairs = NameValuePair.toHttpClient(pairs);
                 final String query = URLEncodedUtils.format(Arrays.asList(httpClientPairs), charset);
                 uri = URIUtils.createURI(url.getProtocol(), url.getHost(), url.getPort(), url.getPath(), query, null);
                 httpMethod.setURI(uri);
@@ -271,7 +271,7 @@ public class HttpWebConnection implements WebConnection {
                 final HttpPost postMethod = (HttpPost) method;
                 if (webRequest.getRequestBody() == null) {
                     final List<NameValuePair> pairs = webRequest.getRequestParameters();
-                    final org.apache.http.NameValuePair[] httpClientPairs = NameValuePair.toHttpClient(pairs);
+                    final org.apache.android.http.NameValuePair[] httpClientPairs = NameValuePair.toHttpClient(pairs);
                     final String query = URLEncodedUtils.format(Arrays.asList(httpClientPairs), charset);
                     final StringEntity urlEncodedEntity = new StringEntity(query, charset);
                     urlEncodedEntity.setContentType(URLEncodedUtils.CONTENT_TYPE);
@@ -527,7 +527,7 @@ public class HttpWebConnection implements WebConnection {
      * Creates the <tt>HttpClient</tt> that will be used by this WebClient.
      * Extensions may override this method in order to create a customized
      * <tt>HttpClient</tt> instance (e.g. with a custom
-     * {@link org.apache.http.conn.ClientConnectionManager} to perform
+     * {@link org.apache.android.http.conn.ClientConnectionManager} to perform
      * some tracking; see feature request 1438216).
      * @return the <tt>HttpClient</tt> that will be used by this WebConnection
      */
@@ -834,7 +834,7 @@ class HtmlUnitBrowserCompatCookieSpec extends BrowserCompatSpec {
 }
 
 /**
- * Implementation of {@link CookieStore} like {@link org.apache.http.impl.client.BasicCookieStore}
+ * Implementation of {@link CookieStore} like {@link org.apache.android.http.impl.client.BasicCookieStore}
  * BUT storing cookies in the order of addition.
  * @author Marc Guillemot
  * @version $Revision$

@@ -51,7 +51,7 @@ import net.sourceforge.htmlunit.corejs.javascript.Undefined;
 import org.apache.commons.lang3.ArrayUtils;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-import org.apache.http.auth.UsernamePasswordCredentials;
+import org.apache.android.http.auth.UsernamePasswordCredentials;
 
 import com.gargoylesoftware.htmlunit.AjaxController;
 import com.gargoylesoftware.htmlunit.BrowserVersion;

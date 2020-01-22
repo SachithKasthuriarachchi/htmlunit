@@ -17,9 +17,9 @@ package com.gargoylesoftware.htmlunit;
 import static com.gargoylesoftware.htmlunit.BrowserRunner.Browser.NONE;
 import static org.junit.Assert.assertNotNull;
 
-import org.apache.http.auth.AuthScope;
-import org.apache.http.auth.UsernamePasswordCredentials;
-import org.apache.http.impl.auth.BasicScheme;
+import org.apache.android.http.auth.AuthScope;
+import org.apache.android.http.auth.UsernamePasswordCredentials;
+import org.apache.android.http.impl.auth.BasicScheme;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 

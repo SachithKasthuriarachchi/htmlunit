@@ -18,12 +18,12 @@ import java.net.InetSocketAddress;
 import java.net.Proxy;
 import java.net.Socket;
 
-import org.apache.http.HttpHost;
-import org.apache.http.conn.scheme.PlainSocketFactory;
-import org.apache.http.params.HttpParams;
+import org.apache.android.http.HttpHost;
+import org.apache.android.http.conn.scheme.PlainSocketFactory;
+import org.apache.android.http.params.HttpParams;
 
 /**
- * SOCKS aware {@link org.apache.http.conn.scheme.SchemeSocketFactory}.
+ * SOCKS aware {@link org.apache.android.http.conn.scheme.SchemeSocketFactory}.
  *
  * @version $Revision$
  * @author Ahmed Ashour

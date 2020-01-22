@@ -30,7 +30,7 @@ import java.util.Set;
 import org.apache.commons.io.IOUtils;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-import org.apache.http.client.utils.URLEncodedUtils;
+import org.apache.android.http.client.utils.URLEncodedUtils;
 
 import com.gargoylesoftware.htmlunit.util.Cookie;
 import com.gargoylesoftware.htmlunit.util.NameValuePair;
@@ -107,7 +107,7 @@ public class UrlFetchWebConnection implements WebConnection {
                 final OutputStream outputStream = connection.getOutputStream();
                 try {
                     final List<NameValuePair> pairs = webRequest.getRequestParameters();
-                    final org.apache.http.NameValuePair[] httpClientPairs = NameValuePair.toHttpClient(pairs);
+                    final org.apache.android.http.NameValuePair[] httpClientPairs = NameValuePair.toHttpClient(pairs);
                     final String query = URLEncodedUtils.format(Arrays.asList(httpClientPairs), charset);
                     outputStream.write(query.getBytes(charset));
                     if (webRequest.getRequestBody() != null) {

@@ -17,8 +17,8 @@ package com.gargoylesoftware.htmlunit.util;
 import java.io.Serializable;
 import java.util.List;
 
-import org.apache.http.message.BasicNameValuePair;
-import org.apache.http.util.LangUtils;
+import org.apache.android.http.message.BasicNameValuePair;
+import org.apache.android.http.util.LangUtils;
 
 /**
  * A name/value pair.
@@ -97,9 +97,9 @@ public class NameValuePair implements Serializable {
      * @param pairs the name/value pairs to convert
      * @return the converted name/value pairs
      */
-    public static org.apache.http.NameValuePair[] toHttpClient(final NameValuePair[] pairs) {
-        final org.apache.http.NameValuePair[] pairs2 =
-            new org.apache.http.NameValuePair[pairs.length];
+    public static org.apache.android.http.NameValuePair[] toHttpClient(final NameValuePair[] pairs) {
+        final org.apache.android.http.NameValuePair[] pairs2 =
+            new org.apache.android.http.NameValuePair[pairs.length];
         for (int i = 0; i < pairs.length; i++) {
             final NameValuePair pair = pairs[i];
             pairs2[i] = new BasicNameValuePair(pair.getName(), pair.getValue());
@@ -112,8 +112,8 @@ public class NameValuePair implements Serializable {
      * @param pairs the name/value pairs to convert
      * @return the converted name/value pairs
      */
-    public static org.apache.http.NameValuePair[] toHttpClient(final List<NameValuePair> pairs) {
-        final org.apache.http.NameValuePair[] pairs2 = new org.apache.http.NameValuePair[pairs.size()];
+    public static org.apache.android.http.NameValuePair[] toHttpClient(final List<NameValuePair> pairs) {
+        final org.apache.android.http.NameValuePair[] pairs2 = new org.apache.android.http.NameValuePair[pairs.size()];
         for (int i = 0; i < pairs.size(); i++) {
             final NameValuePair pair = pairs.get(i);
             pairs2[i] = new BasicNameValuePair(pair.getName(), pair.getValue());

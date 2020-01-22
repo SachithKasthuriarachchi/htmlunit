@@ -18,8 +18,8 @@ import static org.junit.Assert.assertEquals;
 
 import java.net.URL;
 
-import org.apache.http.auth.BasicUserPrincipal;
-import org.apache.http.auth.Credentials;
+import org.apache.android.http.auth.BasicUserPrincipal;
+import org.apache.android.http.auth.Credentials;
 import org.junit.Test;
 
 /**

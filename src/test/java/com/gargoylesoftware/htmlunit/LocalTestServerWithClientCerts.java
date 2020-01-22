@@ -28,36 +28,36 @@ import javax.net.ssl.SSLContext;
 import javax.net.ssl.SSLServerSocket;
 import javax.net.ssl.SSLServerSocketFactory;
 
-import org.apache.http.ConnectionReuseStrategy;
-import org.apache.http.HttpResponseFactory;
-import org.apache.http.HttpResponseInterceptor;
-import org.apache.http.HttpServerConnection;
-import org.apache.http.impl.DefaultConnectionReuseStrategy;
-import org.apache.http.impl.DefaultHttpResponseFactory;
-import org.apache.http.impl.DefaultHttpServerConnection;
-import org.apache.http.localserver.EchoHandler;
-import org.apache.http.localserver.RandomHandler;
-import org.apache.http.params.CoreConnectionPNames;
-import org.apache.http.params.CoreProtocolPNames;
-import org.apache.http.params.HttpParams;
-import org.apache.http.params.SyncBasicHttpParams;
-import org.apache.http.protocol.BasicHttpContext;
-import org.apache.http.protocol.BasicHttpProcessor;
-import org.apache.http.protocol.HttpContext;
-import org.apache.http.protocol.HttpExpectationVerifier;
-import org.apache.http.protocol.HttpProcessor;
-import org.apache.http.protocol.HttpRequestHandler;
-import org.apache.http.protocol.HttpRequestHandlerRegistry;
-import org.apache.http.protocol.HttpService;
-import org.apache.http.protocol.ImmutableHttpProcessor;
-import org.apache.http.protocol.ResponseConnControl;
-import org.apache.http.protocol.ResponseContent;
-import org.apache.http.protocol.ResponseDate;
-import org.apache.http.protocol.ResponseServer;
+import org.apache.android.http.connectionReuseStrategy;
+import org.apache.android.http.HttpResponseFactory;
+import org.apache.android.http.HttpResponseInterceptor;
+import org.apache.android.http.HttpServerConnection;
+import org.apache.android.http.impl.DefaultConnectionReuseStrategy;
+import org.apache.android.http.impl.DefaultHttpResponseFactory;
+import org.apache.android.http.impl.DefaultHttpServerConnection;
+import org.apache.android.http.localserver.EchoHandler;
+import org.apache.android.http.localserver.RandomHandler;
+import org.apache.android.http.params.CoreConnectionPNames;
+import org.apache.android.http.params.CoreProtocolPNames;
+import org.apache.android.http.params.HttpParams;
+import org.apache.android.http.params.SyncBasicHttpParams;
+import org.apache.android.http.protocol.BasicHttpContext;
+import org.apache.android.http.protocol.BasicHttpProcessor;
+import org.apache.android.http.protocol.HttpContext;
+import org.apache.android.http.protocol.HttpExpectationVerifier;
+import org.apache.android.http.protocol.HttpProcessor;
+import org.apache.android.http.protocol.HttpRequestHandler;
+import org.apache.android.http.protocol.HttpRequestHandlerRegistry;
+import org.apache.android.http.protocol.HttpService;
+import org.apache.android.http.protocol.ImmutableHttpProcessor;
+import org.apache.android.http.protocol.ResponseConnControl;
+import org.apache.android.http.protocol.ResponseContent;
+import org.apache.android.http.protocol.ResponseDate;
+import org.apache.android.http.protocol.ResponseServer;
 
 /**
  * Local HTTP server for tests that require one, with a client certificate authorization.
- * The code is exactly as {@link org.apache.http.localserver.LocalTestServer},
+ * The code is exactly as {@link org.apache.android.http.localserver.LocalTestServer},
  * but with {@link SSLServerSocket#setNeedClientAuth(boolean)}.
  *
  * @version $Revision$

@@ -24,8 +24,8 @@ import java.util.Map;
 import java.util.regex.Pattern;
 
 import org.apache.commons.lang3.ClassUtils;
-import org.apache.http.auth.Credentials;
-import org.apache.http.auth.UsernamePasswordCredentials;
+import org.apache.android.http.auth.Credentials;
+import org.apache.android.http.auth.UsernamePasswordCredentials;
 
 import com.gargoylesoftware.htmlunit.util.NameValuePair;
 import com.gargoylesoftware.htmlunit.util.UrlUtils;

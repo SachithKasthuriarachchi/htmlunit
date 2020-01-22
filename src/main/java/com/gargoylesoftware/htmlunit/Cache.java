@@ -22,7 +22,7 @@ import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import org.apache.http.client.utils.DateUtils;
+import org.apache.android.http.client.utils.DateUtils;
 import org.w3c.dom.css.CSSStyleSheet;
 
 /**

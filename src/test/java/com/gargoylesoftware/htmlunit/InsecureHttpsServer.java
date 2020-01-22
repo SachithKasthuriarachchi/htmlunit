@@ -25,14 +25,14 @@ import javax.net.ssl.SSLContext;
 import javax.net.ssl.TrustManager;
 import javax.net.ssl.TrustManagerFactory;
 
-import org.apache.http.HttpException;
-import org.apache.http.HttpRequest;
-import org.apache.http.HttpResponse;
-import org.apache.http.entity.ContentType;
-import org.apache.http.entity.StringEntity;
-import org.apache.http.localserver.LocalTestServer;
-import org.apache.http.protocol.HttpContext;
-import org.apache.http.protocol.HttpRequestHandler;
+import org.apache.android.http.HttpException;
+import org.apache.android.http.HttpRequest;
+import org.apache.android.http.HttpResponse;
+import org.apache.android.http.entity.ContentType;
+import org.apache.android.http.entity.StringEntity;
+import org.apache.android.http.localserver.LocalTestServer;
+import org.apache.android.http.protocol.HttpContext;
+import org.apache.android.http.protocol.HttpRequestHandler;
 
 /**
  * Simple insecure HTTPS server.

@@ -40,7 +40,7 @@ import com.gargoylesoftware.htmlunit.html.HtmlPage;
 import com.gargoylesoftware.htmlunit.util.NameValuePair;
 
 /**
- * Tests for handling HttpClient's {@link org.apache.http.NoHttpResponseException}.
+ * Tests for handling HttpClient's {@link org.apache.android.http.NoHttpResponseException}.
  *
  * @version $Revision$
  * @author Marc Guillemot

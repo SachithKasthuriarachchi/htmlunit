@@ -27,11 +27,11 @@ import java.util.Set;
 
 import org.apache.commons.collections.set.ListOrderedSet;
 import org.apache.commons.lang3.StringUtils;
-import org.apache.http.client.config.CookieSpecs;
-import org.apache.http.cookie.CookieOrigin;
-import org.apache.http.cookie.CookieSpec;
-import org.apache.http.cookie.CookieSpecRegistry;
-import org.apache.http.impl.client.DefaultHttpClient;
+import org.apache.android.http.client.config.CookieSpecs;
+import org.apache.android.http.cookie.CookieOrigin;
+import org.apache.android.http.cookie.CookieSpec;
+import org.apache.android.http.cookie.CookieSpecRegistry;
+import org.apache.android.http.impl.client.DefaultHttpClient;
 
 import com.gargoylesoftware.htmlunit.util.Cookie;
 
@@ -117,10 +117,10 @@ public class CookieManager implements Serializable {
         clearExpired(new Date());
 
         final CookieSpec spec = registry_.getCookieSpec(HTMLUNIT_COOKIE_POLICY);
-        final org.apache.http.cookie.Cookie[] all = Cookie.toHttpClient(cookies_);
+        final org.apache.android.http.cookie.Cookie[] all = Cookie.toHttpClient(cookies_);
         final CookieOrigin cookieOrigin = new CookieOrigin(host, port, path, secure);
-        final List<org.apache.http.cookie.Cookie> matches = new ArrayList<org.apache.http.cookie.Cookie>();
-        for (final org.apache.http.cookie.Cookie cookie : all) {
+        final List<org.apache.android.http.cookie.Cookie> matches = new ArrayList<org.apache.android.http.cookie.Cookie>();
+        for (final org.apache.android.http.cookie.Cookie cookie : all) {
             if (spec.match(cookie, cookieOrigin)) {
                 matches.add(cookie);
             }

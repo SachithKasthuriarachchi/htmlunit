@@ -220,11 +220,16 @@
                 <extensions>true</extensions>
                 <configuration>
                     <instructions>
-                        <Export-Package>com.gargoylesoftware.htmlunit.*</Export-Package>
+                        <classpathPrefix>lib/</classpathPrefix>
+                        <Export-Package>
+                            com.gargoylesoftware.htmlunit.*,
+                            org.apache.android.http.*
+                        </Export-Package>
                         <Embed-Transitive>true</Embed-Transitive>
                         <Embed-Dependency>*;scope=compile;inline=**</Embed-Dependency>
                         <Import-Package>*;resolution:=optional</Import-Package>
                     </instructions>
+                    <DynamicExport-Package>*</DynamicExport-Package>
                 </configuration>
             </plugin>
         </plugins>
@@ -249,6 +254,9 @@
                         <artifactId>maven-surefire-plugin</artifactId>
                         <version>2.16</version>
                         <configuration>
+                            <additionalClasspathElements>
+                                <additionalClasspathElement>${project.basedir}/lib</additionalClasspathElement>
+                            </additionalClasspathElements>
                             <argLine>-Xmx512m -Xms128m</argLine>
                             <systemPropertyVariables>
                                 <htmlunit.maven>maven</htmlunit.maven>
@@ -729,7 +737,29 @@
             <name>Sebastian Cato</name>
         </contributor>
     </contributors>
+    <repositories>
+        <repository>
+            <id>in-project</id>
+            <name>In Project Repo</name>
+            <url>file://${project.basedir}/lib</url>
+        </repository>
+    </repositories>
     <dependencies>
+        <dependency>
+            <groupId>org.apache</groupId>
+            <artifactId>android-client</artifactId>
+            <version>4.5.11</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache</groupId>
+            <artifactId>android-core</artifactId>
+            <version>4.4.13</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache</groupId>
+            <artifactId>android-mime</artifactId>
+            <version>4.5.11</version>
+        </dependency>
         <dependency>
             <groupId>xalan</groupId>
             <artifactId>xalan</artifactId>
@@ -751,7 +781,7 @@
             <artifactId>commons-lang3</artifactId>
             <version>3.1</version>
         </dependency>
-        <dependency>
+        <!--<dependency>
             <groupId>org.apache.httpcomponents</groupId>
             <artifactId>httpclient</artifactId>
             <version>4.3.1</version>
@@ -762,7 +792,7 @@
             <version>4.3.1</version>
             <type>test-jar</type>
             <scope>test</scope>
-        </dependency>
+        </dependency>!-->
         <dependency>
             <groupId>org.apache.httpcomponents</groupId>
             <artifactId>httpmime</artifactId>
