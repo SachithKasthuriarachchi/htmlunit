@@ -163,7 +163,7 @@ public class Cache implements Serializable {
         final Date lastModified = parseDateHeader(response, "Last-Modified");
         final Date expires = parseDateHeader(response, "Expires");
 
-        final long delay = 10 * org.apache.commons.lang3.time.DateUtils.MILLIS_PER_MINUTE;
+        final long delay = 10 * org.apache.android.commons.lang3.time.DateUtils.MILLIS_PER_MINUTE;
         final long now = getCurrentTimestamp();
 
         final boolean cacheableContent = (expires != null && (expires.getTime() - now > delay)

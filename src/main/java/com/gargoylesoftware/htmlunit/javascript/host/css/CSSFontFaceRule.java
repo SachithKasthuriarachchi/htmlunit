@@ -16,7 +16,7 @@ package com.gargoylesoftware.htmlunit.javascript.host.css;
 
 import java.util.regex.Pattern;
 
-import org.apache.commons.lang3.StringUtils;
+import org.apache.android.commons.lang3.StringUtils;
 
 import com.gargoylesoftware.htmlunit.javascript.configuration.BrowserName;
 import com.gargoylesoftware.htmlunit.javascript.configuration.JsxClass;

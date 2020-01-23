@@ -17,7 +17,7 @@ package com.gargoylesoftware.htmlunit.javascript;
 import java.io.StringWriter;
 import java.net.URL;
 
-import org.apache.commons.io.IOUtils;
+import org.apache.android.commons.io.IOUtils;
 import org.apache.log4j.Appender;
 import org.apache.log4j.Layout;
 import org.apache.log4j.Level;

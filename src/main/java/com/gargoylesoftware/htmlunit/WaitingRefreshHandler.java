@@ -17,8 +17,8 @@ package com.gargoylesoftware.htmlunit;
 import java.io.IOException;
 import java.net.URL;
 
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
+import org.apache.android.commons.logging.Log;
+import org.apache.android.commons.logging.LogFactory;
 
 /**
  * This refresh handler waits the specified number of seconds (or a user defined maximum)

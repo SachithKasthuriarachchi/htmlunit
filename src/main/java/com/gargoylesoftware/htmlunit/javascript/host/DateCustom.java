@@ -27,7 +27,7 @@ import net.sourceforge.htmlunit.corejs.javascript.Context;
 import net.sourceforge.htmlunit.corejs.javascript.Function;
 import net.sourceforge.htmlunit.corejs.javascript.Scriptable;
 
-import org.apache.commons.lang3.time.DateFormatUtils;
+import org.apache.android.commons.lang3.time.DateFormatUtils;
 
 import com.gargoylesoftware.htmlunit.BrowserVersion;
 

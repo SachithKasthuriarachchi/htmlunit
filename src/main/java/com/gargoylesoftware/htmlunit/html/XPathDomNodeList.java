@@ -19,8 +19,8 @@ import java.util.AbstractList;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.apache.commons.collections.Transformer;
-import org.apache.commons.collections.functors.NOPTransformer;
+import org.apache.android.commons.collections4.Transformer;
+import org.apache.android.commons.collections4.functors.NOPTransformer;
 import org.w3c.dom.Node;
 
 import com.gargoylesoftware.htmlunit.html.xpath.XPathUtils;

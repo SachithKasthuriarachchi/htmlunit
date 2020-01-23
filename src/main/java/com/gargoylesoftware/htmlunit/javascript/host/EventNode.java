@@ -18,7 +18,7 @@ import static com.gargoylesoftware.htmlunit.javascript.configuration.BrowserName
 
 import java.util.Locale;
 
-import org.apache.commons.lang3.StringUtils;
+import org.apache.android.commons.lang3.StringUtils;
 
 import com.gargoylesoftware.htmlunit.javascript.configuration.JsxClass;
 import com.gargoylesoftware.htmlunit.javascript.configuration.JsxFunction;

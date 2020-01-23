@@ -131,7 +131,7 @@
 			</question>
 			<answer>
 				<source>
-26.02.2003 16:07:05 org.apache.commons.httpclient.HttpMethodBase   processRedirectResponse
+26.02.2003 16:07:05 org.apache.android.commons.httpclient.HttpMethodBase   processRedirectResponse
 INFO: Redirect requested but followRedirects is disabled
 				</source>
 				<p>

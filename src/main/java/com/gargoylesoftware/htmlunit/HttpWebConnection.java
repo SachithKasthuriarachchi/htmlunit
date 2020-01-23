@@ -40,8 +40,8 @@ import java.util.Map;
 
 import javax.net.ssl.SSLPeerUnverifiedException;
 
-import org.apache.commons.io.IOUtils;
-import org.apache.commons.lang3.StringUtils;
+import org.apache.android.commons.io.IOUtils;
+import org.apache.android.commons.lang3.StringUtils;
 import org.apache.android.http.Header;
 import org.apache.android.http.HttpEntity;
 import org.apache.android.http.HttpEntityEnclosingRequest;

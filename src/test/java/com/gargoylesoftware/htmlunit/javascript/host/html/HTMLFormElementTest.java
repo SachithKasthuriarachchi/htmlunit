@@ -18,7 +18,7 @@ import static com.gargoylesoftware.htmlunit.BrowserRunner.Browser.FF17;
 
 import java.net.URL;
 
-import org.apache.commons.lang3.StringUtils;
+import org.apache.android.commons.lang3.StringUtils;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;

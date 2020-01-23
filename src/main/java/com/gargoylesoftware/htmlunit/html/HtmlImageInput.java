@@ -19,7 +19,7 @@ import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.HTMLIMAGE_NAM
 import java.io.IOException;
 import java.util.Map;
 
-import org.apache.commons.lang3.StringUtils;
+import org.apache.android.commons.lang3.StringUtils;
 
 import com.gargoylesoftware.htmlunit.ElementNotFoundException;
 import com.gargoylesoftware.htmlunit.Page;

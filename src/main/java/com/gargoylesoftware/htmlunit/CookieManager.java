@@ -25,8 +25,8 @@ import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Set;
 
-import org.apache.commons.collections.set.ListOrderedSet;
-import org.apache.commons.lang3.StringUtils;
+import org.apache.android.commons.collections4.set.ListOrderedSet;
+import org.apache.android.commons.lang3.StringUtils;
 import org.apache.android.http.client.config.CookieSpecs;
 import org.apache.android.http.cookie.CookieOrigin;
 import org.apache.android.http.cookie.CookieSpec;

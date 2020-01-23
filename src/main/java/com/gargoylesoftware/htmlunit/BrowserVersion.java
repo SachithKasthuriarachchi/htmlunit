@@ -21,8 +21,8 @@ import java.util.EnumSet;
 import java.util.HashSet;
 import java.util.Set;
 
-import org.apache.commons.lang3.builder.EqualsBuilder;
-import org.apache.commons.lang3.builder.HashCodeBuilder;
+import org.apache.android.commons.lang3.builder.EqualsBuilder;
+import org.apache.android.commons.lang3.builder.HashCodeBuilder;
 
 import com.gargoylesoftware.htmlunit.javascript.configuration.BrowserFeature;
 import com.gargoylesoftware.htmlunit.javascript.configuration.WebBrowser;

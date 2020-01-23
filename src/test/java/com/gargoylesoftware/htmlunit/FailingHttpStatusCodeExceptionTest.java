@@ -17,7 +17,7 @@ package com.gargoylesoftware.htmlunit;
 import java.util.Collections;
 import java.util.List;
 
-import org.apache.commons.lang3.ArrayUtils;
+import org.apache.android.commons.lang3.ArrayUtils;
 import org.apache.android.http.HttpStatus;
 import org.junit.Assert;
 import org.junit.Test;

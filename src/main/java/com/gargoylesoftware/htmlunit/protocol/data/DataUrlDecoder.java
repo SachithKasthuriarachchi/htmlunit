@@ -17,10 +17,10 @@ package com.gargoylesoftware.htmlunit.protocol.data;
 import java.io.UnsupportedEncodingException;
 import java.net.URL;
 
-import org.apache.commons.codec.DecoderException;
-import org.apache.commons.codec.binary.Base64;
-import org.apache.commons.codec.net.URLCodec;
-import org.apache.commons.lang3.StringUtils;
+import org.apache.android.commons.codec.DecoderException;
+import org.apache.android.commons.codec.binary.Base64;
+import org.apache.android.commons.codec.net.URLCodec;
+import org.apache.android.commons.lang3.StringUtils;
 
 /**
  * Helper to work with data URLs.

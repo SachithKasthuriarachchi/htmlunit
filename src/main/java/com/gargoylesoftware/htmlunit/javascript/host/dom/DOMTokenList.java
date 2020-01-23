@@ -19,7 +19,7 @@ import java.util.List;
 
 import net.sourceforge.htmlunit.corejs.javascript.Context;
 
-import org.apache.commons.lang3.StringUtils;
+import org.apache.android.commons.lang3.StringUtils;
 
 import com.gargoylesoftware.htmlunit.html.DomAttr;
 import com.gargoylesoftware.htmlunit.html.HtmlElement;

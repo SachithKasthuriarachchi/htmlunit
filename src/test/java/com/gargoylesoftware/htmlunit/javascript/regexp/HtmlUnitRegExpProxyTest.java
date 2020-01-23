@@ -19,7 +19,7 @@ import static com.gargoylesoftware.htmlunit.BrowserRunner.Browser.NONE;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import org.apache.commons.io.IOUtils;
+import org.apache.android.commons.io.IOUtils;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 

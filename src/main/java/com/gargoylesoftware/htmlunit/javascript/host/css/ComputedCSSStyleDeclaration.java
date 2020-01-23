@@ -24,7 +24,7 @@ import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.CSS_WORD_SPAC
 import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.JS_GET_BACKGROUND_COLOR_FOR_COMPUTED_STYLE_AS_RGB;
 import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.JS_LENGTH_WITHOUT_PX;
 import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.TREATS_POSITION_FIXED_LIKE_POSITION_STATIC;
-import static org.apache.commons.lang3.StringUtils.defaultIfEmpty;
+import static org.apache.android.commons.lang3.StringUtils.defaultIfEmpty;
 
 import java.util.Arrays;
 import java.util.HashSet;
@@ -35,7 +35,7 @@ import java.util.TreeMap;
 import net.sourceforge.htmlunit.corejs.javascript.Context;
 import net.sourceforge.htmlunit.corejs.javascript.ScriptableObject;
 
-import org.apache.commons.lang3.StringUtils;
+import org.apache.android.commons.lang3.StringUtils;
 import org.w3c.css.sac.Selector;
 
 import com.gargoylesoftware.htmlunit.Page;

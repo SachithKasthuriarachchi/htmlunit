@@ -16,7 +16,7 @@ package com.gargoylesoftware.htmlunit.javascript.background;
 
 import static org.junit.Assert.assertEquals;
 
-import org.apache.commons.lang3.mutable.MutableInt;
+import org.apache.android.commons.lang3.mutable.MutableInt;
 import org.easymock.EasyMock;
 import org.junit.After;
 import org.junit.Assert;

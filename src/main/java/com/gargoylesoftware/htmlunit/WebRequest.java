@@ -23,7 +23,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.regex.Pattern;
 
-import org.apache.commons.lang3.ClassUtils;
+import org.apache.android.commons.lang3.ClassUtils;
 import org.apache.android.http.auth.Credentials;
 import org.apache.android.http.auth.UsernamePasswordCredentials;
 

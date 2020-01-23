@@ -18,7 +18,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.List;
 
-import org.apache.commons.io.FileUtils;
+import org.apache.android.commons.io.FileUtils;
 
 /**
  * Utility for automatically transforming Moalla JavaScript tests to WebDriver test cases.

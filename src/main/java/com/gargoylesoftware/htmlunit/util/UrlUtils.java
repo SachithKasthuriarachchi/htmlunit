@@ -19,8 +19,8 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.BitSet;
 
-import org.apache.commons.codec.DecoderException;
-import org.apache.commons.codec.net.URLCodec;
+import org.apache.android.commons.codec.DecoderException;
+import org.apache.android.commons.codec.net.URLCodec;
 
 import com.gargoylesoftware.htmlunit.TextUtil;
 import com.gargoylesoftware.htmlunit.WebAssert;
@@ -236,7 +236,7 @@ public final class UrlUtils {
             String query = url.getQuery();
             if (query != null) {
                 if (minimalQueryEncoding) {
-                    query = org.apache.commons.lang3.StringUtils.replace(query, " ", "%20");
+                    query = org.apache.android.commons.lang3.StringUtils.replace(query, " ", "%20");
                 }
                 else {
                     query = encode(query, QUERY_ALLOWED_CHARS, charset);

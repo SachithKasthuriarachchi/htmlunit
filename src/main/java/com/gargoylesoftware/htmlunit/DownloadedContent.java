@@ -22,8 +22,8 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.Serializable;
 
-import org.apache.commons.io.FileUtils;
-import org.apache.commons.lang3.ArrayUtils;
+import org.apache.android.commons.io.FileUtils;
+import org.apache.android.commons.lang3.ArrayUtils;
 
 /**
  * Wrapper for content downloaded from a remote server.

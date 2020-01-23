@@ -21,7 +21,7 @@ import static org.junit.Assert.assertTrue;
 import java.util.Date;
 import java.util.List;
 
-import org.apache.commons.lang3.builder.EqualsBuilder;
+import org.apache.android.commons.lang3.builder.EqualsBuilder;
 import org.apache.android.http.impl.cookie.BasicClientCookie;
 import org.junit.Before;
 import org.junit.Test;

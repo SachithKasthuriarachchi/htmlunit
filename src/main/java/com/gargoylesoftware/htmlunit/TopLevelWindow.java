@@ -14,8 +14,8 @@
  */
 package com.gargoylesoftware.htmlunit;
 
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
+import org.apache.android.commons.logging.Log;
+import org.apache.android.commons.logging.LogFactory;
 
 import com.gargoylesoftware.htmlunit.html.HtmlPage;
 

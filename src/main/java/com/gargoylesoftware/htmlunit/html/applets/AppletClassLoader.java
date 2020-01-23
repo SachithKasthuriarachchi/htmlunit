@@ -18,7 +18,7 @@ import java.io.IOException;
 import java.net.URL;
 import java.net.URLClassLoader;
 
-import org.apache.commons.io.IOUtils;
+import org.apache.android.commons.io.IOUtils;
 
 import com.gargoylesoftware.htmlunit.WebResponse;
 

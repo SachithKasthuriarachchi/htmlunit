@@ -22,7 +22,7 @@ import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.JS_DOCTYPE_NO
 import static com.gargoylesoftware.htmlunit.javascript.configuration.BrowserName.FF;
 import net.sourceforge.htmlunit.corejs.javascript.Context;
 
-import org.apache.commons.lang3.StringUtils;
+import org.apache.android.commons.lang3.StringUtils;
 import org.w3c.dom.NamedNodeMap;
 
 import com.gargoylesoftware.htmlunit.html.DomDocumentType;

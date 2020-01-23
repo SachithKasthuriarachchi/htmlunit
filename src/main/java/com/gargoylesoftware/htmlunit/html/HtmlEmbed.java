@@ -20,7 +20,7 @@ import java.io.IOException;
 import java.net.URL;
 import java.util.Map;
 
-import org.apache.commons.io.IOUtils;
+import org.apache.android.commons.io.IOUtils;
 
 import com.gargoylesoftware.htmlunit.SgmlPage;
 import com.gargoylesoftware.htmlunit.WebClient;

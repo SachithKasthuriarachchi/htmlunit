@@ -48,15 +48,15 @@ public final class StringUtils {
     /**
      * Escapes the characters '<', '>' and '&' into their XML entity equivalents. Note that
      * sometimes we have to use this method instead of
-     * {@link org.apache.commons.lang3.StringEscapeUtils#escapeXml(String)} or
-     * {@link org.apache.commons.lang3.StringEscapeUtils#escapeHtml4(String)} because those methods
+     * {@link org.apache.android.commons.lang3.StringEscapeUtils#escapeXml(String)} or
+     * {@link org.apache.android.commons.lang3.StringEscapeUtils#escapeHtml4(String)} because those methods
      * escape some unicode characters as well.
      *
      * @param s the string to escape
      * @return the escaped form of the specified string
      */
     public static String escapeXmlChars(final String s) {
-        return org.apache.commons.lang3.StringUtils.
+        return org.apache.android.commons.lang3.StringUtils.
                 replaceEach(s, new String[] {"&", "<", ">"}, new String[] {"&amp;", "&lt;", "&gt;"});
     }
 
@@ -261,7 +261,7 @@ public final class StringUtils {
      * @return sanitized version of the given string
      */
     public static String sanitizeForAppendReplacement(final String toSanitize) {
-        final String toReplace = org.apache.commons.lang3.StringUtils.replaceEach(toSanitize,
+        final String toReplace = org.apache.android.commons.lang3.StringUtils.replaceEach(toSanitize,
                 new String[] {"\\", "$"}, new String[]{"\\\\", "\\$"});
         return toReplace;
     }

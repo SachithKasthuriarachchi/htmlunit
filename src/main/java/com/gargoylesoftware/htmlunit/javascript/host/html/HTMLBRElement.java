@@ -18,7 +18,7 @@ import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.GENERATED_42;
 import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.GENERATED_43;
 import net.sourceforge.htmlunit.corejs.javascript.Context;
 
-import org.apache.commons.lang3.ArrayUtils;
+import org.apache.android.commons.lang3.ArrayUtils;
 
 import com.gargoylesoftware.htmlunit.html.HtmlBreak;
 import com.gargoylesoftware.htmlunit.javascript.configuration.JsxClass;

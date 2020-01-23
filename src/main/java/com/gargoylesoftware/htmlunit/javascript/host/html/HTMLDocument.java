@@ -73,9 +73,9 @@ import net.sourceforge.htmlunit.corejs.javascript.ScriptableObject;
 import net.sourceforge.htmlunit.corejs.javascript.Undefined;
 import net.sourceforge.htmlunit.corejs.javascript.UniqueTag;
 
-import org.apache.commons.lang3.StringUtils;
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
+import org.apache.android.commons.lang3.StringUtils;
+import org.apache.android.commons.logging.Log;
+import org.apache.android.commons.logging.LogFactory;
 import org.w3c.css.sac.CSSException;
 import org.w3c.css.sac.InputSource;
 import org.w3c.dom.DOMException;
@@ -902,7 +902,7 @@ public class HTMLDocument extends Document implements ScriptableWithFallbackGett
     }
 
     /**
-     * {@link org.apache.commons.httpclient.cookie.CookieSpec#match(String, int, String, boolean, Cookie[])} doesn't
+     * {@link org.apache.android.commons.httpclient.cookie.CookieSpec#match(String, int, String, boolean, Cookie[])} doesn't
      * like empty hosts and negative ports, but these things happen if we're dealing with a local file. This method
      * allows us to work around this limitation in HttpClient by feeding it a bogus host and port.
      *

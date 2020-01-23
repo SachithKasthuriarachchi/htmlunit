@@ -5674,7 +5674,7 @@
             </action>
             <action type="update" dev="bradclarke" issue="1144103" due-to="Daniel Gredler">
                 INCOMPATIBLE CHANGE: com.gargoylesoftware.htmlunit.CredentialProvider has been removed.
-                You should now use org.apache.commons.httpclient.auth.CredentialsProvider instead.
+                You should now use org.apache.android.commons.httpclient.auth.CredentialsProvider instead.
                 This patch should allow support for NTLM and Digest authentication as well as
                 proxy authentication.
             </action>

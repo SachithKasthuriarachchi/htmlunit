@@ -28,9 +28,9 @@ import net.sourceforge.htmlunit.corejs.javascript.regexp.NativeRegExp;
 import net.sourceforge.htmlunit.corejs.javascript.regexp.RegExpImpl;
 import net.sourceforge.htmlunit.corejs.javascript.regexp.SubString;
 
-import org.apache.commons.lang3.StringUtils;
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
+import org.apache.android.commons.lang3.StringUtils;
+import org.apache.android.commons.logging.Log;
+import org.apache.android.commons.logging.LogFactory;
 
 /**
  * Begins customization of JavaScript RegExp base on JDK regular expression support.

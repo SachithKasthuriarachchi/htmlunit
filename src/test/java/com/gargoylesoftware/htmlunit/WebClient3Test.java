@@ -22,7 +22,7 @@ import java.util.List;
 import java.util.Random;
 import java.util.zip.Deflater;
 
-import org.apache.commons.io.IOUtils;
+import org.apache.android.commons.io.IOUtils;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;

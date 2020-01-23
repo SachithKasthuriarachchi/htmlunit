@@ -19,8 +19,8 @@ import java.util.List;
 
 import net.sourceforge.htmlunit.corejs.javascript.Context;
 
-import org.apache.commons.collections.ListUtils;
-import org.apache.commons.logging.LogFactory;
+import org.apache.android.commons.collections4.ListUtils;
+import org.apache.android.commons.logging.LogFactory;
 
 import com.gargoylesoftware.htmlunit.SgmlPage;
 import com.gargoylesoftware.htmlunit.html.DomDocumentFragment;

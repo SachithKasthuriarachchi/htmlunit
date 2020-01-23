@@ -17,7 +17,7 @@ package com.gargoylesoftware.htmlunit.source;
 import java.io.File;
 import java.io.IOException;
 
-import org.apache.commons.io.FileUtils;
+import org.apache.android.commons.io.FileUtils;
 
 /**
  * Subversion utilities.
