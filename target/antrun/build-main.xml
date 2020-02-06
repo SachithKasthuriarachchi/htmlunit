@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <mkdir dir="E:\htmlunit/artifacts"/>
+  <delete includeemptydirs="true">
+    <fileset includes="**/*.jar" dir="E:\htmlunit/artifacts"/>
+    <fileset includes="**/*.zip" dir="E:\htmlunit/artifacts"/>
+  </delete>
+  <copy todir="E:\htmlunit/artifacts">
+    <fileset dir="E:\htmlunit/target">
+      <include name="*.jar"/>
+      <include name="*.zip"/>
+      <exclude name="*-src.zip"/>
+    </fileset>
+  </copy>
+  <move file="E:\htmlunit/artifacts/htmlunit-2.13-bin.zip" tofile="E:\htmlunit/artifacts/htmlunit-2.13-with-dependencies.zip"/>
+  <zip destfile="E:\htmlunit/artifacts/htmlunit-2.13-with-dependencies.zip" update="true">
+    <zipfileset prefix="htmlunit-2.13" includes="pom.xml" dir="."/>
+  </zip>
+</target>
+</project>
