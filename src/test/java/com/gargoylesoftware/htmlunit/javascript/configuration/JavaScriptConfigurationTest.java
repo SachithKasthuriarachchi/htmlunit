@@ -39,8 +39,8 @@ import java.util.Set;
 import java.util.jar.JarEntry;
 import java.util.jar.JarFile;
 
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
+import org.apache.android.commons.logging.Log;
+import org.apache.android.commons.logging.LogFactory;
 import org.apache.commons.text.RandomStringGenerator;
 import org.junit.Test;
 

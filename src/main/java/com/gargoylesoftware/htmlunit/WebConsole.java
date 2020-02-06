@@ -19,8 +19,8 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
+import org.apache.android.commons.logging.Log;
+import org.apache.android.commons.logging.LogFactory;
 
 /**
  * This class can be used to print messages to the logger. The first parameter

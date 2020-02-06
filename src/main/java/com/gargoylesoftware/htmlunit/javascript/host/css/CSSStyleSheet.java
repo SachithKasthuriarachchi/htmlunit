@@ -42,11 +42,11 @@ import java.util.Set;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.regex.Pattern;
 
-import org.apache.commons.io.IOUtils;
-import org.apache.commons.lang3.StringUtils;
-import org.apache.commons.lang3.math.NumberUtils;
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
+import org.apache.android.commons.io.IOUtils;
+import org.apache.android.commons.lang3.StringUtils;
+import org.apache.android.commons.lang3.math.NumberUtils;
+import org.apache.android.commons.logging.Log;
+import org.apache.android.commons.logging.LogFactory;
 import org.w3c.dom.DOMException;
 import org.w3c.dom.css.CSSImportRule;
 import org.w3c.dom.css.CSSRule;

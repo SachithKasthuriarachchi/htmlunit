@@ -23,10 +23,10 @@ import java.nio.charset.Charset;
 import java.nio.charset.IllegalCharsetNameException;
 import java.nio.charset.UnsupportedCharsetException;
 
-import org.apache.commons.codec.DecoderException;
-import org.apache.commons.codec.binary.Base64;
-import org.apache.commons.codec.net.URLCodec;
-import org.apache.commons.lang3.StringUtils;
+import org.apache.android.commons.codec.DecoderException;
+import org.apache.android.commons.codec.binary.Base64;
+import org.apache.android.commons.codec.net.URLCodec;
+import org.apache.android.commons.lang3.StringUtils;
 
 /**
  * Helper to work with data URLs.

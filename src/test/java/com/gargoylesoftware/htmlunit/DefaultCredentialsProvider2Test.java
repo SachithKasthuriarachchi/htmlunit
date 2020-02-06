@@ -96,7 +96,7 @@ public class DefaultCredentialsProvider2Test extends WebServerTestCase {
      */
     @Test
     public void basicAuthentication_singleAuthenticaiton() throws Exception {
-        final Logger logger = Logger.getLogger("org.apache.http.headers");
+        final Logger logger = Logger.getLogger("org.apache.android.http.headers");
         final Level oldLevel = logger.getLevel();
         logger.setLevel(Level.DEBUG);
 

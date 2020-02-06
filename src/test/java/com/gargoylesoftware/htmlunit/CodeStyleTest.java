@@ -32,9 +32,9 @@ import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import org.apache.commons.io.FileUtils;
-import org.apache.commons.lang3.StringUtils;
-import org.apache.commons.logging.Log;
+import org.apache.android.commons.io.FileUtils;
+import org.apache.android.commons.lang3.StringUtils;
+import org.apache.android.commons.logging.Log;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;

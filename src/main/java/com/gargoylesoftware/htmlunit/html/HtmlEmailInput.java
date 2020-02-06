@@ -18,7 +18,7 @@ import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.JS_INPUT_SET_
 
 import java.util.Map;
 
-import org.apache.commons.lang3.StringUtils;
+import org.apache.android.commons.lang3.StringUtils;
 
 import com.gargoylesoftware.htmlunit.SgmlPage;
 import com.gargoylesoftware.htmlunit.html.impl.SelectableTextInput;

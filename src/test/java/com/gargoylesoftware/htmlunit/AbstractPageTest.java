@@ -14,13 +14,13 @@
  */
 package com.gargoylesoftware.htmlunit;
 
-import static org.apache.http.client.utils.DateUtils.formatDate;
+import static org.apache.android.http.client.utils.DateUtils.formatDate;
 
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-import org.apache.commons.lang3.time.DateUtils;
+import org.apache.android.commons.lang3.time.DateUtils;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 

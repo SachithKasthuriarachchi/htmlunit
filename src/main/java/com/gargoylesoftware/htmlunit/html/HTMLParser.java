@@ -37,8 +37,8 @@ import java.util.List;
 import java.util.Locale;
 import java.util.Map;
 
-import org.apache.commons.lang3.ArrayUtils;
-import org.apache.commons.lang3.StringUtils;
+import org.apache.android.commons.lang3.ArrayUtils;
+import org.apache.android.commons.lang3.StringUtils;
 import org.apache.xerces.parsers.AbstractSAXParser;
 import org.apache.xerces.util.DefaultErrorHandler;
 import org.apache.xerces.xni.Augmentations;

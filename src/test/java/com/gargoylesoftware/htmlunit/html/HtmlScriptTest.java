@@ -21,7 +21,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-import org.apache.http.HttpStatus;
+import org.apache.android.http.HttpStatus;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 

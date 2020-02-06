@@ -16,7 +16,7 @@ package com.gargoylesoftware.htmlunit.util;
 
 import java.awt.Frame;
 
-import org.apache.commons.lang3.StringUtils;
+import org.apache.android.commons.lang3.StringUtils;
 
 import com.gargoylesoftware.htmlunit.WebClient;
 import com.gargoylesoftware.htmlunit.WebResponse;

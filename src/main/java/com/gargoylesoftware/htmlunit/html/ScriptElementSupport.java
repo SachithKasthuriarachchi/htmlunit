@@ -21,9 +21,9 @@ import static com.gargoylesoftware.htmlunit.html.DomElement.ATTRIBUTE_NOT_DEFINE
 
 import java.nio.charset.Charset;
 
-import org.apache.commons.lang3.StringUtils;
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
+import org.apache.android.commons.lang3.StringUtils;
+import org.apache.android.commons.logging.Log;
+import org.apache.android.commons.logging.LogFactory;
 
 import com.gargoylesoftware.htmlunit.BrowserVersion;
 import com.gargoylesoftware.htmlunit.FailingHttpStatusCodeException;

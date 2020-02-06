@@ -16,8 +16,8 @@ package com.gargoylesoftware.htmlunit.html;
 
 import java.net.URL;
 
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
+import org.apache.android.commons.logging.Log;
+import org.apache.android.commons.logging.LogFactory;
 
 /**
  * Listener for messages from the HTML parser. <br>

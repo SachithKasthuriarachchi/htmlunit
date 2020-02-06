@@ -20,7 +20,7 @@ import java.io.UnsupportedEncodingException;
 import java.net.URL;
 import java.net.URLConnection;
 
-import org.apache.commons.codec.DecoderException;
+import org.apache.android.commons.codec.DecoderException;
 
 /**
  * A URLConnection for supporting data URLs.

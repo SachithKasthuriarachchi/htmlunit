@@ -20,8 +20,8 @@ import java.net.URL;
 import java.util.Collections;
 import java.util.List;
 
-import org.apache.commons.io.FileUtils;
-import org.apache.commons.io.IOUtils;
+import org.apache.android.commons.io.FileUtils;
+import org.apache.android.commons.io.IOUtils;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 

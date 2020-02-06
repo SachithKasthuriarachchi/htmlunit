@@ -52,20 +52,20 @@ import java.util.Locale;
 import java.util.Map;
 import java.util.Set;
 
-import org.apache.commons.codec.DecoderException;
-import org.apache.commons.lang3.StringUtils;
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
-import org.apache.http.HttpStatus;
-import org.apache.http.NoHttpResponseException;
-import org.apache.http.client.CredentialsProvider;
-import org.apache.http.client.utils.DateUtils;
-import org.apache.http.cookie.ClientCookie;
-import org.apache.http.cookie.CookieOrigin;
-import org.apache.http.cookie.CookieSpec;
-import org.apache.http.cookie.MalformedCookieException;
-import org.apache.http.message.BufferedHeader;
-import org.apache.http.util.CharArrayBuffer;
+import org.apache.android.commons.codec.DecoderException;
+import org.apache.android.commons.lang3.StringUtils;
+import org.apache.android.commons.logging.Log;
+import org.apache.android.commons.logging.LogFactory;
+import org.apache.android.http.HttpStatus;
+import org.apache.android.http.NoHttpResponseException;
+import org.apache.android.http.client.CredentialsProvider;
+import org.apache.android.http.client.utils.DateUtils;
+import org.apache.android.http.cookie.ClientCookie;
+import org.apache.android.http.cookie.CookieOrigin;
+import org.apache.android.http.cookie.CookieSpec;
+import org.apache.android.http.cookie.MalformedCookieException;
+import org.apache.android.http.message.BufferedHeader;
+import org.apache.android.http.util.CharArrayBuffer;
 
 import com.gargoylesoftware.css.parser.CSSErrorHandler;
 import com.gargoylesoftware.htmlunit.activex.javascript.msxml.MSXMLActiveXObjectFactory;
@@ -1185,8 +1185,6 @@ public class WebClient implements Serializable, AutoCloseable {
      * Builds a WebResponse for a file URL.
      * This first implementation is basic.
      * It assumes that the file contains an HTML page encoded with the specified encoding.
-     * @param url the file URL
-     * @param charset encoding to use
      * @return the web response
      * @throws IOException if an IO problem occurs
      */
@@ -2322,13 +2320,13 @@ public class WebClient implements Serializable, AutoCloseable {
         // discard expired cookies
         cookieManager.clearExpired(new Date());
 
-        final List<org.apache.http.cookie.Cookie> all = Cookie.toHttpClient(cookieManager.getCookies());
-        final List<org.apache.http.cookie.Cookie> matches = new ArrayList<>();
+        final List<org.apache.android.http.cookie.Cookie> all = Cookie.toHttpClient(cookieManager.getCookies());
+        final List<org.apache.android.http.cookie.Cookie> matches = new ArrayList<>();
 
         if (all.size() > 0) {
             final CookieOrigin cookieOrigin = new CookieOrigin(host, port, path, secure);
             final CookieSpec cookieSpec = new HtmlUnitBrowserCompatCookieSpec(getBrowserVersion());
-            for (final org.apache.http.cookie.Cookie cookie : all) {
+            for (final org.apache.android.http.cookie.Cookie cookie : all) {
                 if (cookieSpec.match(cookie, cookieOrigin)) {
                     matches.add(cookie);
                 }
@@ -2357,10 +2355,10 @@ public class WebClient implements Serializable, AutoCloseable {
             final CookieSpec cookieSpec = new HtmlUnitBrowserCompatCookieSpec(browserVersion);
 
             try {
-                final List<org.apache.http.cookie.Cookie> cookies =
+                final List<org.apache.android.http.cookie.Cookie> cookies =
                         cookieSpec.parse(new BufferedHeader(buffer), cookieManager.buildCookieOrigin(pageUrl));
 
-                for (org.apache.http.cookie.Cookie cookie : cookies) {
+                for (org.apache.android.http.cookie.Cookie cookie : cookies) {
                     final Cookie htmlUnitCookie = new Cookie((ClientCookie) cookie);
                     cookieManager.addCookie(htmlUnitCookie);
 

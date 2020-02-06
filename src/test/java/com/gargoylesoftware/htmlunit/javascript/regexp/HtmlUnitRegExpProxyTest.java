@@ -16,7 +16,7 @@ package com.gargoylesoftware.htmlunit.javascript.regexp;
 
 import static java.nio.charset.StandardCharsets.ISO_8859_1;
 
-import org.apache.commons.io.IOUtils;
+import org.apache.android.commons.io.IOUtils;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 

@@ -21,10 +21,10 @@ import static org.junit.Assert.assertTrue;
 import java.util.Date;
 import java.util.List;
 
-import org.apache.http.Header;
-import org.apache.http.cookie.CookieOrigin;
-import org.apache.http.impl.cookie.DefaultCookieSpec;
-import org.apache.http.message.BasicHeader;
+import org.apache.android.http.Header;
+import org.apache.android.http.cookie.CookieOrigin;
+import org.apache.android.http.impl.cookie.DefaultCookieSpec;
+import org.apache.android.http.message.BasicHeader;
 import org.junit.Test;
 
 import com.gargoylesoftware.htmlunit.util.Cookie;
@@ -108,7 +108,7 @@ public class CookieManager3Test {
         final Header header = new BasicHeader("Set-Cookie", "first=\"hello world\"");
         final DefaultCookieSpec spec = new DefaultCookieSpec();
         final CookieOrigin origin = new CookieOrigin("localhost", 80, "/", false);
-        final List<org.apache.http.cookie.Cookie> list = spec.parse(header, origin);
+        final List<org.apache.android.http.cookie.Cookie> list = spec.parse(header, origin);
         assertEquals(1, list.size());
         assertEquals("\"hello world\"", list.get(0).getValue());
     }

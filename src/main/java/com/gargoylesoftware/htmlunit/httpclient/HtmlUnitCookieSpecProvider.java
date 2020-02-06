@@ -14,9 +14,9 @@
  */
 package com.gargoylesoftware.htmlunit.httpclient;
 
-import org.apache.http.cookie.CookieSpec;
-import org.apache.http.cookie.CookieSpecProvider;
-import org.apache.http.protocol.HttpContext;
+import org.apache.android.http.cookie.CookieSpec;
+import org.apache.android.http.cookie.CookieSpecProvider;
+import org.apache.android.http.protocol.HttpContext;
 
 import com.gargoylesoftware.htmlunit.BrowserVersion;
 

@@ -26,8 +26,8 @@ import java.nio.charset.Charset;
 import java.util.BitSet;
 import java.util.Locale;
 
-import org.apache.commons.codec.DecoderException;
-import org.apache.commons.codec.net.URLCodec;
+import org.apache.android.commons.codec.DecoderException;
+import org.apache.android.commons.codec.net.URLCodec;
 
 import com.gargoylesoftware.htmlunit.WebAssert;
 import com.gargoylesoftware.htmlunit.WebClient;

@@ -17,7 +17,7 @@ package com.gargoylesoftware.htmlunit.svg;
 import java.nio.charset.Charset;
 import java.util.Map;
 
-import org.apache.commons.lang3.StringUtils;
+import org.apache.android.commons.lang3.StringUtils;
 
 import com.gargoylesoftware.htmlunit.SgmlPage;
 import com.gargoylesoftware.htmlunit.html.DomAttr;

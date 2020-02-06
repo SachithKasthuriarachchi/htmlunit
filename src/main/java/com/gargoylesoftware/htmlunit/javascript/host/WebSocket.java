@@ -20,10 +20,10 @@ import java.nio.ByteBuffer;
 import java.util.Arrays;
 import java.util.concurrent.Future;
 
-import org.apache.commons.lang3.ArrayUtils;
-import org.apache.commons.lang3.StringUtils;
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
+import org.apache.android.commons.lang3.ArrayUtils;
+import org.apache.android.commons.lang3.StringUtils;
+import org.apache.android.commons.logging.Log;
+import org.apache.android.commons.logging.LogFactory;
 import org.eclipse.jetty.util.ssl.SslContextFactory;
 import org.eclipse.jetty.websocket.api.Session;
 import org.eclipse.jetty.websocket.api.UpgradeException;

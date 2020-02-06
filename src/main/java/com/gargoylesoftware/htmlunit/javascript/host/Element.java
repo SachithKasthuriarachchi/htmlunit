@@ -36,7 +36,7 @@ import java.util.Map;
 import java.util.Objects;
 import java.util.regex.Pattern;
 
-import org.apache.commons.logging.LogFactory;
+import org.apache.android.commons.logging.LogFactory;
 import org.xml.sax.SAXException;
 
 import com.gargoylesoftware.css.parser.CSSException;

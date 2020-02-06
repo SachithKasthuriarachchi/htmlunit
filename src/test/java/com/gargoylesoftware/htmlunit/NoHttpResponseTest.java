@@ -26,8 +26,8 @@ import java.net.URL;
 import java.nio.CharBuffer;
 import java.util.concurrent.atomic.AtomicBoolean;
 
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
+import org.apache.android.commons.logging.Log;
+import org.apache.android.commons.logging.LogFactory;
 import org.junit.Test;
 import org.junit.experimental.runners.Enclosed;
 import org.junit.runner.RunWith;
@@ -39,7 +39,7 @@ import com.gargoylesoftware.htmlunit.html.HtmlPage;
 import com.gargoylesoftware.htmlunit.util.NameValuePair;
 
 /**
- * Tests for handling HttpClient's {@link org.apache.http.NoHttpResponseException}.
+ * Tests for handling HttpClient's {@link org.apache.android.http.NoHttpResponseException}.
  *
  * @author Marc Guillemot
  * @author Frank Danek

@@ -18,7 +18,7 @@ import static java.nio.charset.StandardCharsets.ISO_8859_1;
 
 import java.io.File;
 
-import org.apache.commons.io.FileUtils;
+import org.apache.android.commons.io.FileUtils;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;

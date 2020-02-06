@@ -18,7 +18,7 @@ import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 import java.util.List;
 
-import org.apache.commons.lang3.StringUtils;
+import org.apache.android.commons.lang3.StringUtils;
 import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.model.FrameworkField;
 import org.junit.runners.model.FrameworkMethod;

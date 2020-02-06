@@ -17,7 +17,7 @@ package com.gargoylesoftware.htmlunit.javascript.host.intl;
 import static com.gargoylesoftware.htmlunit.BrowserRunner.TestedBrowser.CHROME;
 import static com.gargoylesoftware.htmlunit.BrowserRunner.TestedBrowser.FF;
 
-import org.apache.commons.lang3.CharUtils;
+import org.apache.android.commons.lang3.CharUtils;
 import org.junit.ComparisonFailure;
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -14,9 +14,9 @@
  */
 package com.gargoylesoftware.htmlunit;
 
-import org.apache.http.auth.AuthScope;
-import org.apache.http.auth.UsernamePasswordCredentials;
-import org.apache.http.impl.auth.BasicScheme;
+import org.apache.android.http.auth.AuthScope;
+import org.apache.android.http.auth.UsernamePasswordCredentials;
+import org.apache.android.http.impl.auth.BasicScheme;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 

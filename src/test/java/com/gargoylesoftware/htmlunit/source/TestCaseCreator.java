@@ -20,7 +20,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.List;
 
-import org.apache.commons.io.FileUtils;
+import org.apache.android.commons.io.FileUtils;
 
 /**
  * Prints out a tiny test case, from a provided HTML file.

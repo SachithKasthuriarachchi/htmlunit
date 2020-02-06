@@ -21,10 +21,10 @@ import java.util.Date;
 import java.util.Iterator;
 import java.util.List;
 
-import org.apache.commons.lang3.builder.EqualsBuilder;
-import org.apache.commons.lang3.builder.HashCodeBuilder;
-import org.apache.http.cookie.ClientCookie;
-import org.apache.http.impl.cookie.BasicClientCookie;
+import org.apache.android.commons.lang3.builder.EqualsBuilder;
+import org.apache.android.commons.lang3.builder.HashCodeBuilder;
+import org.apache.android.http.cookie.ClientCookie;
+import org.apache.android.http.impl.cookie.BasicClientCookie;
 
 /**
  * A cookie. This class is immutable.
@@ -227,7 +227,7 @@ public class Cookie implements Serializable {
      * Converts this cookie to an HttpClient cookie.
      * @return an HttpClient version of this cookie
      */
-    public org.apache.http.cookie.Cookie toHttpClient() {
+    public org.apache.android.http.cookie.Cookie toHttpClient() {
         return httpClientCookie_;
     }
 
@@ -236,8 +236,8 @@ public class Cookie implements Serializable {
      * @param cookies the cookies to be converted
      * @return the specified cookies, as HttpClient cookies
      */
-    public static List<org.apache.http.cookie.Cookie> toHttpClient(final Collection<Cookie> cookies) {
-        final ArrayList<org.apache.http.cookie.Cookie> array = new ArrayList<>(cookies.size());
+    public static List<org.apache.android.http.cookie.Cookie> toHttpClient(final Collection<Cookie> cookies) {
+        final ArrayList<org.apache.android.http.cookie.Cookie> array = new ArrayList<>(cookies.size());
         final Iterator<Cookie> it = cookies.iterator();
         while (it.hasNext()) {
             array.add(it.next().toHttpClient());
@@ -250,9 +250,9 @@ public class Cookie implements Serializable {
      * @param cookies the cookies to be converted
      * @return the specified HttpClient cookies, as cookies
      */
-    public static List<Cookie> fromHttpClient(final List<org.apache.http.cookie.Cookie> cookies) {
+    public static List<Cookie> fromHttpClient(final List<org.apache.android.http.cookie.Cookie> cookies) {
         final List<Cookie> list = new ArrayList<>(cookies.size());
-        for (org.apache.http.cookie.Cookie c : cookies) {
+        for (org.apache.android.http.cookie.Cookie c : cookies) {
             list.add(new Cookie((ClientCookie) c));
         }
         return list;

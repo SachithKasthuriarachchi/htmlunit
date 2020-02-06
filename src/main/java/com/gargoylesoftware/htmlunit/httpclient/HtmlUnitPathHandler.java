@@ -16,10 +16,10 @@ package com.gargoylesoftware.htmlunit.httpclient;
 
 import static com.gargoylesoftware.htmlunit.BrowserVersionFeatures.HTTP_COOKIE_EXTRACT_PATH_FROM_LOCATION;
 
-import org.apache.http.cookie.Cookie;
-import org.apache.http.cookie.CookieOrigin;
-import org.apache.http.cookie.MalformedCookieException;
-import org.apache.http.impl.cookie.BasicPathHandler;
+import org.apache.android.http.cookie.Cookie;
+import org.apache.android.http.cookie.CookieOrigin;
+import org.apache.android.http.cookie.MalformedCookieException;
+import org.apache.android.http.impl.cookie.BasicPathHandler;
 
 import com.gargoylesoftware.htmlunit.BrowserVersion;
 

@@ -31,11 +31,11 @@ import java.util.List;
 import java.util.Locale;
 import java.util.Map.Entry;
 
-import org.apache.commons.lang3.ArrayUtils;
-import org.apache.commons.lang3.StringUtils;
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
-import org.apache.http.auth.UsernamePasswordCredentials;
+import org.apache.android.commons.lang3.ArrayUtils;
+import org.apache.android.commons.lang3.StringUtils;
+import org.apache.android.commons.logging.Log;
+import org.apache.android.commons.logging.LogFactory;
+import org.apache.android.http.auth.UsernamePasswordCredentials;
 
 import com.gargoylesoftware.htmlunit.AjaxController;
 import com.gargoylesoftware.htmlunit.FormEncodingType;

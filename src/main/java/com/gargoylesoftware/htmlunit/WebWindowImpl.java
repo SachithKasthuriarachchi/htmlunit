@@ -29,8 +29,8 @@ import java.util.Map;
 import javax.script.ScriptContext;
 import javax.script.SimpleScriptContext;
 
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
+import org.apache.android.commons.logging.Log;
+import org.apache.android.commons.logging.LogFactory;
 
 import com.gargoylesoftware.htmlunit.html.FrameWindow;
 import com.gargoylesoftware.htmlunit.javascript.background.BackgroundJavaScriptFactory;

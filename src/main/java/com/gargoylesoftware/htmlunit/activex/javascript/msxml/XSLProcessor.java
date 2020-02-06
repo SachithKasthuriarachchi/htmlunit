@@ -29,7 +29,7 @@ import javax.xml.transform.dom.DOMResult;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
 
-import org.apache.commons.lang3.StringUtils;
+import org.apache.android.commons.lang3.StringUtils;
 import org.w3c.dom.NodeList;
 
 import com.gargoylesoftware.htmlunit.SgmlPage;

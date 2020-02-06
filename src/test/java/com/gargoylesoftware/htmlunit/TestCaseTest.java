@@ -22,7 +22,7 @@ import java.lang.reflect.Field;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.apache.commons.io.FileUtils;
+import org.apache.android.commons.io.FileUtils;
 import org.junit.Test;
 
 import com.gargoylesoftware.htmlunit.html.HtmlPageTest;

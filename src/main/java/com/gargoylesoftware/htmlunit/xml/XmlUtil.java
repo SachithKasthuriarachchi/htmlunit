@@ -33,9 +33,9 @@ import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 
-import org.apache.commons.io.input.BOMInputStream;
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
+import org.apache.android.commons.io.input.BOMInputStream;
+import org.apache.android.commons.logging.Log;
+import org.apache.android.commons.logging.LogFactory;
 import org.apache.xerces.dom.DeferredDocumentImpl;
 import org.apache.xerces.dom.DeferredNode;
 import org.w3c.dom.Attr;

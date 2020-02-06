@@ -16,7 +16,7 @@ package com.gargoylesoftware.htmlunit.javascript;
 
 import java.lang.reflect.Method;
 
-import org.apache.commons.lang3.ArrayUtils;
+import org.apache.android.commons.lang3.ArrayUtils;
 
 import net.sourceforge.htmlunit.corejs.javascript.Context;
 import net.sourceforge.htmlunit.corejs.javascript.Function;

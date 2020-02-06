@@ -70,7 +70,7 @@
     <create creator="script" javascript="EmailValidator" scope="application">
       <param name="language" value="beanshell"/>
       <param name="script">
-        import org.apache.commons.validator.EmailValidator;
+        import org.apache.android.commons.validator.EmailValidator;
         return EmailValidator.getInstance();
       </param>
     </create>

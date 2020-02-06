@@ -21,9 +21,9 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.Map;
 
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
-import org.apache.http.HttpStatus;
+import org.apache.android.commons.logging.Log;
+import org.apache.android.commons.logging.LogFactory;
+import org.apache.android.http.HttpStatus;
 
 import com.gargoylesoftware.htmlunit.HttpHeader;
 import com.gargoylesoftware.htmlunit.SgmlPage;

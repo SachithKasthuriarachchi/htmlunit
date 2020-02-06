@@ -19,12 +19,12 @@ import java.net.InetSocketAddress;
 import java.net.Proxy;
 import java.net.Socket;
 
-import org.apache.http.HttpHost;
-import org.apache.http.conn.socket.PlainConnectionSocketFactory;
-import org.apache.http.protocol.HttpContext;
+import org.apache.android.http.HttpHost;
+import org.apache.android.http.conn.socket.PlainConnectionSocketFactory;
+import org.apache.android.http.protocol.HttpContext;
 
 /**
- * SOCKS aware {@link org.apache.http.conn.socket.ConnectionSocketFactory}.
+ * SOCKS aware {@link org.apache.android.http.conn.socket.ConnectionSocketFactory}.
  *
  * @author Ahmed Ashour
  * @author Ronald Brill

@@ -17,8 +17,8 @@ package com.gargoylesoftware.htmlunit;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertNull;
 
-import org.apache.commons.lang3.SerializationUtils;
-import org.apache.http.auth.AuthScope;
+import org.apache.android.commons.lang3.SerializationUtils;
+import org.apache.android.http.auth.AuthScope;
 import org.junit.Test;
 
 /**

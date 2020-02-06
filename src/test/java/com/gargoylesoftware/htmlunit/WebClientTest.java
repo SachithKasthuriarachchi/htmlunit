@@ -37,11 +37,11 @@ import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
 
-import org.apache.commons.io.FileUtils;
-import org.apache.commons.io.IOUtils;
-import org.apache.commons.lang3.StringUtils;
-import org.apache.commons.lang3.mutable.MutableInt;
-import org.apache.http.HttpStatus;
+import org.apache.android.commons.io.FileUtils;
+import org.apache.android.commons.io.IOUtils;
+import org.apache.android.commons.lang3.StringUtils;
+import org.apache.android.commons.lang3.mutable.MutableInt;
+import org.apache.android.http.HttpStatus;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 

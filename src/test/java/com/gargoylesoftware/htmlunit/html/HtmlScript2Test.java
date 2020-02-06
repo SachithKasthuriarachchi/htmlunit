@@ -19,7 +19,7 @@ import static java.nio.charset.StandardCharsets.UTF_8;
 
 import java.net.URL;
 
-import org.apache.commons.io.ByteOrderMark;
+import org.apache.android.commons.io.ByteOrderMark;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.openqa.selenium.By;

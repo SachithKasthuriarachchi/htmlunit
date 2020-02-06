@@ -19,8 +19,8 @@ import static org.junit.Assert.fail;
 import java.util.Collections;
 import java.util.List;
 
-import org.apache.commons.lang3.ArrayUtils;
-import org.apache.http.HttpStatus;
+import org.apache.android.commons.lang3.ArrayUtils;
+import org.apache.android.http.HttpStatus;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 

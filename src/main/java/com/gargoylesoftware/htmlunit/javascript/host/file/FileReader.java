@@ -21,8 +21,8 @@ import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.nio.file.Files;
 
-import org.apache.commons.codec.binary.Base64;
-import org.apache.commons.io.FileUtils;
+import org.apache.android.commons.codec.binary.Base64;
+import org.apache.android.commons.io.FileUtils;
 
 import com.gargoylesoftware.htmlunit.BrowserVersion;
 import com.gargoylesoftware.htmlunit.javascript.configuration.JsxClass;

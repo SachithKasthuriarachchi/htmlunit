@@ -21,8 +21,8 @@ import static org.junit.Assert.assertTrue;
 import java.util.Date;
 import java.util.List;
 
-import org.apache.commons.lang3.builder.EqualsBuilder;
-import org.apache.http.impl.cookie.BasicClientCookie;
+import org.apache.android.commons.lang3.builder.EqualsBuilder;
+import org.apache.android.http.impl.cookie.BasicClientCookie;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -69,7 +69,7 @@ public class HtmlUnitCookieStoreTest {
         mgr_.addCookie(new Cookie("localhost", "myname", "myvalue"));
         mgr_.addCookie(new Cookie("localhost", "myname2", "myvalue2"));
 
-        final List<org.apache.http.cookie.Cookie> cookies = store_.getCookies();
+        final List<org.apache.android.http.cookie.Cookie> cookies = store_.getCookies();
         assertEquals(2, cookies.size());
         assertTrue(cookies.contains(new MyCookie("myname", "myvalue")));
         assertTrue(cookies.contains(new MyCookie("myname2", "myvalue2")));
@@ -91,7 +91,7 @@ public class HtmlUnitCookieStoreTest {
         assertTrue(store_.clearExpired(new Date(System.currentTimeMillis() + 20_000)));
         assertFalse(store_.clearExpired(new Date(System.currentTimeMillis() + 20_000)));
 
-        final List<org.apache.http.cookie.Cookie> cookies = store_.getCookies();
+        final List<org.apache.android.http.cookie.Cookie> cookies = store_.getCookies();
         assertEquals(1, cookies.size());
         assertTrue(cookies.contains(new MyCookie("myname", "myvalue")));
     }
@@ -117,10 +117,10 @@ public class HtmlUnitCookieStoreTest {
 
         @Override
         public boolean equals(final Object obj) {
-            return obj instanceof org.apache.http.cookie.Cookie
+            return obj instanceof org.apache.android.http.cookie.Cookie
                 && new EqualsBuilder()
-                    .append(getName(), ((org.apache.http.cookie.Cookie) obj).getName())
-                    .append(getValue(), ((org.apache.http.cookie.Cookie) obj).getValue())
+                    .append(getName(), ((org.apache.android.http.cookie.Cookie) obj).getName())
+                    .append(getValue(), ((org.apache.android.http.cookie.Cookie) obj).getValue())
                     .isEquals();
         }
 

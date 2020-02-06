@@ -44,9 +44,9 @@ import java.util.Locale;
 import java.util.Map.Entry;
 import java.util.TreeMap;
 
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
-import org.apache.http.auth.UsernamePasswordCredentials;
+import org.apache.android.commons.logging.Log;
+import org.apache.android.commons.logging.LogFactory;
+import org.apache.android.http.auth.UsernamePasswordCredentials;
 
 import com.gargoylesoftware.htmlunit.AjaxController;
 import com.gargoylesoftware.htmlunit.BrowserVersion;

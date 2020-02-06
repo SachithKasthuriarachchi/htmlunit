@@ -41,69 +41,69 @@ import javax.net.ssl.SSLContext;
 import javax.net.ssl.SSLPeerUnverifiedException;
 import javax.net.ssl.SSLSocketFactory;
 
-import org.apache.commons.io.IOUtils;
-import org.apache.commons.lang3.StringUtils;
-import org.apache.commons.lang3.reflect.FieldUtils;
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
-import org.apache.http.ConnectionClosedException;
-import org.apache.http.Header;
-import org.apache.http.HttpEntity;
-import org.apache.http.HttpEntityEnclosingRequest;
-import org.apache.http.HttpException;
-import org.apache.http.HttpHost;
-import org.apache.http.HttpRequest;
-import org.apache.http.HttpRequestInterceptor;
-import org.apache.http.HttpResponse;
-import org.apache.http.auth.AuthScheme;
-import org.apache.http.auth.AuthScope;
-import org.apache.http.auth.Credentials;
-import org.apache.http.client.AuthCache;
-import org.apache.http.client.CredentialsProvider;
-import org.apache.http.client.config.RequestConfig;
-import org.apache.http.client.methods.HttpDelete;
-import org.apache.http.client.methods.HttpGet;
-import org.apache.http.client.methods.HttpHead;
-import org.apache.http.client.methods.HttpOptions;
-import org.apache.http.client.methods.HttpPatch;
-import org.apache.http.client.methods.HttpPost;
-import org.apache.http.client.methods.HttpPut;
-import org.apache.http.client.methods.HttpRequestBase;
-import org.apache.http.client.methods.HttpTrace;
-import org.apache.http.client.methods.HttpUriRequest;
-import org.apache.http.client.protocol.HttpClientContext;
-import org.apache.http.client.protocol.RequestAcceptEncoding;
-import org.apache.http.client.protocol.RequestAddCookies;
-import org.apache.http.client.protocol.RequestAuthCache;
-import org.apache.http.client.protocol.RequestClientConnControl;
-import org.apache.http.client.protocol.RequestDefaultHeaders;
-import org.apache.http.client.protocol.RequestExpectContinue;
-import org.apache.http.client.protocol.ResponseProcessCookies;
-import org.apache.http.client.utils.URLEncodedUtils;
-import org.apache.http.config.ConnectionConfig;
-import org.apache.http.config.RegistryBuilder;
-import org.apache.http.config.SocketConfig;
-import org.apache.http.conn.DnsResolver;
-import org.apache.http.conn.socket.ConnectionSocketFactory;
-import org.apache.http.conn.socket.LayeredConnectionSocketFactory;
-import org.apache.http.conn.ssl.DefaultHostnameVerifier;
-import org.apache.http.conn.ssl.SSLConnectionSocketFactory;
-import org.apache.http.conn.util.PublicSuffixMatcher;
-import org.apache.http.conn.util.PublicSuffixMatcherLoader;
-import org.apache.http.cookie.CookieSpecProvider;
-import org.apache.http.entity.ContentType;
-import org.apache.http.entity.StringEntity;
-import org.apache.http.entity.mime.MultipartEntityBuilder;
-import org.apache.http.entity.mime.content.InputStreamBody;
-import org.apache.http.impl.client.BasicAuthCache;
-import org.apache.http.impl.client.HttpClientBuilder;
-import org.apache.http.impl.conn.PoolingHttpClientConnectionManager;
-import org.apache.http.protocol.HttpContext;
-import org.apache.http.protocol.HttpProcessorBuilder;
-import org.apache.http.protocol.RequestContent;
-import org.apache.http.protocol.RequestTargetHost;
-import org.apache.http.ssl.SSLContexts;
-import org.apache.http.util.TextUtils;
+import org.apache.android.commons.io.IOUtils;
+import org.apache.android.commons.lang3.StringUtils;
+import org.apache.android.commons.lang3.reflect.FieldUtils;
+import org.apache.android.commons.logging.Log;
+import org.apache.android.commons.logging.LogFactory;
+import org.apache.android.http.ConnectionClosedException;
+import org.apache.android.http.Header;
+import org.apache.android.http.HttpEntity;
+import org.apache.android.http.HttpEntityEnclosingRequest;
+import org.apache.android.http.HttpException;
+import org.apache.android.http.HttpHost;
+import org.apache.android.http.HttpRequest;
+import org.apache.android.http.HttpRequestInterceptor;
+import org.apache.android.http.HttpResponse;
+import org.apache.android.http.auth.AuthScheme;
+import org.apache.android.http.auth.AuthScope;
+import org.apache.android.http.auth.Credentials;
+import org.apache.android.http.client.AuthCache;
+import org.apache.android.http.client.CredentialsProvider;
+import org.apache.android.http.client.config.RequestConfig;
+import org.apache.android.http.client.methods.HttpDelete;
+import org.apache.android.http.client.methods.HttpGet;
+import org.apache.android.http.client.methods.HttpHead;
+import org.apache.android.http.client.methods.HttpOptions;
+import org.apache.android.http.client.methods.HttpPatch;
+import org.apache.android.http.client.methods.HttpPost;
+import org.apache.android.http.client.methods.HttpPut;
+import org.apache.android.http.client.methods.HttpRequestBase;
+import org.apache.android.http.client.methods.HttpTrace;
+import org.apache.android.http.client.methods.HttpUriRequest;
+import org.apache.android.http.client.protocol.HttpClientContext;
+import org.apache.android.http.client.protocol.RequestAcceptEncoding;
+import org.apache.android.http.client.protocol.RequestAddCookies;
+import org.apache.android.http.client.protocol.RequestAuthCache;
+import org.apache.android.http.client.protocol.RequestClientConnControl;
+import org.apache.android.http.client.protocol.RequestDefaultHeaders;
+import org.apache.android.http.client.protocol.RequestExpectContinue;
+import org.apache.android.http.client.protocol.ResponseProcessCookies;
+import org.apache.android.http.client.utils.URLEncodedUtils;
+import org.apache.android.http.config.ConnectionConfig;
+import org.apache.android.http.config.RegistryBuilder;
+import org.apache.android.http.config.SocketConfig;
+import org.apache.android.http.conn.DnsResolver;
+import org.apache.android.http.conn.socket.ConnectionSocketFactory;
+import org.apache.android.http.conn.socket.LayeredConnectionSocketFactory;
+import org.apache.android.http.conn.ssl.DefaultHostnameVerifier;
+import org.apache.android.http.conn.ssl.SSLConnectionSocketFactory;
+import org.apache.android.http.conn.util.PublicSuffixMatcher;
+import org.apache.android.http.conn.util.PublicSuffixMatcherLoader;
+import org.apache.android.http.cookie.CookieSpecProvider;
+import org.apache.android.http.entity.ContentType;
+import org.apache.android.http.entity.StringEntity;
+import org.apache.android.http.entity.mime.MultipartEntityBuilder;
+import org.apache.android.http.entity.mime.content.InputStreamBody;
+import org.apache.android.http.impl.client.BasicAuthCache;
+import org.apache.android.http.impl.client.HttpClientBuilder;
+import org.apache.android.http.impl.conn.PoolingHttpClientConnectionManager;
+import org.apache.android.http.protocol.HttpContext;
+import org.apache.android.http.protocol.HttpProcessorBuilder;
+import org.apache.android.http.protocol.RequestContent;
+import org.apache.android.http.protocol.RequestTargetHost;
+import org.apache.android.http.ssl.SSLContexts;
+import org.apache.android.http.util.TextUtils;
 
 import com.gargoylesoftware.htmlunit.httpclient.HtmlUnitCookieSpecProvider;
 import com.gargoylesoftware.htmlunit.httpclient.HtmlUnitCookieStore;
@@ -305,7 +305,7 @@ public class HttpWebConnection implements WebConnection {
             // this is the case for GET as well as TRACE, DELETE, OPTIONS and HEAD
             if (!webRequest.getRequestParameters().isEmpty()) {
                 final List<NameValuePair> pairs = webRequest.getRequestParameters();
-                final org.apache.http.NameValuePair[] httpClientPairs = NameValuePair.toHttpClient(pairs);
+                final org.apache.android.http.NameValuePair[] httpClientPairs = NameValuePair.toHttpClient(pairs);
                 final String query = URLEncodedUtils.format(Arrays.asList(httpClientPairs), charset);
                 uri = UrlUtils.toURI(url, query);
                 httpMethod.setURI(uri);
@@ -318,7 +318,7 @@ public class HttpWebConnection implements WebConnection {
                 final HttpPost postMethod = (HttpPost) method;
                 if (webRequest.getRequestBody() == null) {
                     final List<NameValuePair> pairs = webRequest.getRequestParameters();
-                    final org.apache.http.NameValuePair[] httpClientPairs = NameValuePair.toHttpClient(pairs);
+                    final org.apache.android.http.NameValuePair[] httpClientPairs = NameValuePair.toHttpClient(pairs);
                     final String query = URLEncodedUtils.format(Arrays.asList(httpClientPairs), charset);
                     final StringEntity urlEncodedEntity = new StringEntity(query, charset);
                     urlEncodedEntity.setContentType(URLEncodedUtils.CONTENT_TYPE);
@@ -546,7 +546,7 @@ public class HttpWebConnection implements WebConnection {
      * Creates the <tt>HttpClientBuilder</tt> that will be used by this WebClient.
      * Extensions may override this method in order to create a customized
      * <tt>HttpClientBuilder</tt> instance (e.g. with a custom
-     * {@link org.apache.http.conn.ClientConnectionManager} to perform
+     * {@link org.apache.android.http.conn.ClientConnectionManager} to perform
      * some tracking; see feature request 1438216).
      * @return the <tt>HttpClientBuilder</tt> that will be used by this WebConnection
      */
@@ -829,7 +829,7 @@ public class HttpWebConnection implements WebConnection {
         return list;
     }
 
-    /** We must have a separate class per header, because of org.apache.http.protocol.ChainBuilder. */
+    /** We must have a separate class per header, because of org.apache.android.http.protocol.ChainBuilder. */
     private static final class HostHeaderHttpRequestInterceptor implements HttpRequestInterceptor {
         private String value_;
 

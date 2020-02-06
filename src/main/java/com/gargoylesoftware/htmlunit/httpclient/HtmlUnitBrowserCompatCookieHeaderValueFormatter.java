@@ -14,7 +14,7 @@
  */
 package com.gargoylesoftware.htmlunit.httpclient;
 
-import org.apache.http.message.BasicHeaderValueFormatter;
+import org.apache.android.http.message.BasicHeaderValueFormatter;
 
 /**
  * Customized BasicHeaderValueFormatter for HtmlUnit.

@@ -18,7 +18,7 @@ import static org.junit.Assert.fail;
 
 import java.util.List;
 
-import org.apache.commons.lang3.StringUtils;
+import org.apache.android.commons.lang3.StringUtils;
 import org.eclipse.jetty.server.Server;
 import org.junit.AfterClass;
 import org.junit.Before;

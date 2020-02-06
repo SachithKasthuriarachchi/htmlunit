@@ -26,11 +26,11 @@ import java.net.URL;
 import java.nio.charset.Charset;
 import java.util.List;
 
-import org.apache.commons.io.ByteOrderMark;
-import org.apache.commons.io.IOUtils;
-import org.apache.commons.io.input.BOMInputStream;
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
+import org.apache.android.commons.io.ByteOrderMark;
+import org.apache.android.commons.io.IOUtils;
+import org.apache.android.commons.io.input.BOMInputStream;
+import org.apache.android.commons.logging.Log;
+import org.apache.android.commons.logging.LogFactory;
 
 import com.gargoylesoftware.htmlunit.DefaultPageCreator.PageType;
 import com.gargoylesoftware.htmlunit.util.EncodingSniffer;

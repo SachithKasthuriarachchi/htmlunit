@@ -23,7 +23,7 @@ import java.net.URL;
 
 import javax.imageio.ImageReader;
 
-import org.apache.commons.io.IOUtils;
+import org.apache.android.commons.io.IOUtils;
 import org.junit.After;
 import org.junit.Test;
 import org.junit.runner.RunWith;

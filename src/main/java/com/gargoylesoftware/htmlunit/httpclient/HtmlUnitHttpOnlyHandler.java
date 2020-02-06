@@ -27,12 +27,12 @@ package com.gargoylesoftware.htmlunit.httpclient;
  * @author Ronald Brill
  * @author John J Murdoch
  */
-import org.apache.http.cookie.CommonCookieAttributeHandler;
-import org.apache.http.cookie.Cookie;
-import org.apache.http.cookie.CookieOrigin;
-import org.apache.http.cookie.MalformedCookieException;
-import org.apache.http.cookie.SetCookie;
-import org.apache.http.impl.cookie.BasicClientCookie;
+import org.apache.android.http.cookie.CommonCookieAttributeHandler;
+import org.apache.android.http.cookie.Cookie;
+import org.apache.android.http.cookie.CookieOrigin;
+import org.apache.android.http.cookie.MalformedCookieException;
+import org.apache.android.http.cookie.SetCookie;
+import org.apache.android.http.impl.cookie.BasicClientCookie;
 
 final class HtmlUnitHttpOnlyHandler implements CommonCookieAttributeHandler {
 

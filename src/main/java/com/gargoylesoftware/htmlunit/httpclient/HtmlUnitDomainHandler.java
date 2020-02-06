@@ -20,13 +20,13 @@ import java.net.InetAddress;
 import java.net.UnknownHostException;
 import java.util.Locale;
 
-import org.apache.http.cookie.Cookie;
-import org.apache.http.cookie.CookieOrigin;
-import org.apache.http.cookie.MalformedCookieException;
-import org.apache.http.cookie.SetCookie;
-import org.apache.http.impl.cookie.BasicDomainHandler;
-import org.apache.http.util.Args;
-import org.apache.http.util.TextUtils;
+import org.apache.android.http.cookie.Cookie;
+import org.apache.android.http.cookie.CookieOrigin;
+import org.apache.android.http.cookie.MalformedCookieException;
+import org.apache.android.http.cookie.SetCookie;
+import org.apache.android.http.impl.cookie.BasicDomainHandler;
+import org.apache.android.http.util.Args;
+import org.apache.android.http.util.TextUtils;
 
 import com.gargoylesoftware.htmlunit.BrowserVersion;
 import com.gargoylesoftware.htmlunit.HttpHeader;

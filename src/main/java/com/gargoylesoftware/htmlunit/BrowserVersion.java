@@ -25,7 +25,7 @@ import java.util.Map;
 import java.util.Set;
 import java.util.TimeZone;
 
-import org.apache.commons.io.FilenameUtils;
+import org.apache.android.commons.io.FilenameUtils;
 
 import com.gargoylesoftware.htmlunit.javascript.configuration.AbstractJavaScriptConfiguration;
 import com.gargoylesoftware.htmlunit.javascript.configuration.BrowserFeature;

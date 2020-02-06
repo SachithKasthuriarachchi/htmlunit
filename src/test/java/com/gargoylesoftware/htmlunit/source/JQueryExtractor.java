@@ -36,9 +36,9 @@ import java.util.TreeSet;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import org.apache.commons.io.FileUtils;
-import org.apache.commons.lang3.StringUtils;
-import org.apache.commons.lang3.reflect.MethodUtils;
+import org.apache.android.commons.io.FileUtils;
+import org.apache.android.commons.lang3.StringUtils;
+import org.apache.android.commons.lang3.reflect.MethodUtils;
 
 import com.gargoylesoftware.htmlunit.BrowserRunner.NotYetImplemented;
 import com.gargoylesoftware.htmlunit.BrowserRunner.TestedBrowser;

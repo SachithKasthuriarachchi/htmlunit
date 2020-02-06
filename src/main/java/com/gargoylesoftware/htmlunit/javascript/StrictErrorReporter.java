@@ -16,8 +16,8 @@ package com.gargoylesoftware.htmlunit.javascript;
 
 import java.io.Serializable;
 
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
+import org.apache.android.commons.logging.Log;
+import org.apache.android.commons.logging.LogFactory;
 
 import net.sourceforge.htmlunit.corejs.javascript.ErrorReporter;
 import net.sourceforge.htmlunit.corejs.javascript.EvaluatorException;

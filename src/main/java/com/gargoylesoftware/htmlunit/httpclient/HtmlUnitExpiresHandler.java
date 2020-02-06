@@ -22,10 +22,10 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.Locale;
 
-import org.apache.http.client.utils.DateUtils;
-import org.apache.http.cookie.MalformedCookieException;
-import org.apache.http.cookie.SetCookie;
-import org.apache.http.impl.cookie.BasicExpiresHandler;
+import org.apache.android.http.client.utils.DateUtils;
+import org.apache.android.http.cookie.MalformedCookieException;
+import org.apache.android.http.cookie.SetCookie;
+import org.apache.android.http.impl.cookie.BasicExpiresHandler;
 
 import com.gargoylesoftware.htmlunit.BrowserVersion;
 

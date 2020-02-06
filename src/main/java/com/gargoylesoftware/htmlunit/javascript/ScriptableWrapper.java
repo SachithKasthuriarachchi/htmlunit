@@ -18,7 +18,7 @@ import java.lang.reflect.Method;
 import java.util.HashMap;
 import java.util.Map;
 
-import org.apache.commons.lang3.ArrayUtils;
+import org.apache.android.commons.lang3.ArrayUtils;
 import org.w3c.dom.NamedNodeMap;
 import org.w3c.dom.NodeList;
 

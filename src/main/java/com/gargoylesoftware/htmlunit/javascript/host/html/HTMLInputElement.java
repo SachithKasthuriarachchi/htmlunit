@@ -35,8 +35,8 @@ import java.io.File;
 import java.io.IOException;
 import java.util.Locale;
 
-import org.apache.commons.lang3.StringUtils;
-import org.apache.commons.lang3.math.NumberUtils;
+import org.apache.android.commons.lang3.StringUtils;
+import org.apache.android.commons.lang3.math.NumberUtils;
 import org.xml.sax.helpers.AttributesImpl;
 
 import com.gargoylesoftware.htmlunit.BrowserVersion;

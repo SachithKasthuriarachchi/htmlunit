@@ -22,8 +22,8 @@ import java.util.Date;
 import java.util.List;
 import java.util.Locale;
 
-import org.apache.commons.lang3.SerializationUtils;
-import org.apache.commons.lang3.time.DateUtils;
+import org.apache.android.commons.lang3.SerializationUtils;
+import org.apache.android.commons.lang3.time.DateUtils;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 

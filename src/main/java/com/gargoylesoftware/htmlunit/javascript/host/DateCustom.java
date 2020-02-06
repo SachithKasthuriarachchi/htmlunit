@@ -21,8 +21,8 @@ import java.util.Date;
 import java.util.Locale;
 import java.util.TimeZone;
 
-import org.apache.commons.lang3.time.DateFormatUtils;
-import org.apache.commons.lang3.time.FastDateFormat;
+import org.apache.android.commons.lang3.time.DateFormatUtils;
+import org.apache.android.commons.lang3.time.FastDateFormat;
 
 import com.gargoylesoftware.htmlunit.BrowserVersion;
 

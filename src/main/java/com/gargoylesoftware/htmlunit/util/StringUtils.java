@@ -19,7 +19,7 @@ import java.util.Date;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import org.apache.http.client.utils.DateUtils;
+import org.apache.android.http.client.utils.DateUtils;
 
 /**
  * String utilities class for utility functions not covered by third party libraries.

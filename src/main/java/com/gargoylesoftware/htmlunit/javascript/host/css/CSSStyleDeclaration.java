@@ -118,10 +118,10 @@ import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import org.apache.commons.lang3.StringUtils;
-import org.apache.commons.lang3.math.NumberUtils;
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
+import org.apache.android.commons.lang3.StringUtils;
+import org.apache.android.commons.lang3.math.NumberUtils;
+import org.apache.android.commons.logging.Log;
+import org.apache.android.commons.logging.LogFactory;
 
 import com.gargoylesoftware.css.dom.CSSValueImpl;
 import com.gargoylesoftware.css.parser.CSSErrorHandler;

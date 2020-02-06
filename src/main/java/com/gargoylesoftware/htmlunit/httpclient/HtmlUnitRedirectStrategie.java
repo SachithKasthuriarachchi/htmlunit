@@ -14,11 +14,11 @@
  */
 package com.gargoylesoftware.htmlunit.httpclient;
 
-import org.apache.http.HttpRequest;
-import org.apache.http.HttpResponse;
-import org.apache.http.ProtocolException;
-import org.apache.http.impl.client.DefaultRedirectStrategy;
-import org.apache.http.protocol.HttpContext;
+import org.apache.android.http.HttpRequest;
+import org.apache.android.http.HttpResponse;
+import org.apache.android.http.ProtocolException;
+import org.apache.android.http.impl.client.DefaultRedirectStrategy;
+import org.apache.android.http.protocol.HttpContext;
 
 /**
  * Customized DefaultRedirectStrategy for HtmlUnit.

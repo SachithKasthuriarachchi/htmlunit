@@ -24,9 +24,9 @@ import java.lang.reflect.Field;
 import javax.imageio.ImageIO;
 import javax.imageio.ImageReader;
 
-import org.apache.commons.codec.binary.Base64;
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
+import org.apache.android.commons.codec.binary.Base64;
+import org.apache.android.commons.logging.Log;
+import org.apache.android.commons.logging.LogFactory;
 
 /**
  * The default implementation of {@link RenderingBackend}.

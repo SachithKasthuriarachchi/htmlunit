@@ -20,7 +20,7 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
-import org.apache.commons.lang3.mutable.MutableInt;
+import org.apache.android.commons.lang3.mutable.MutableInt;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 

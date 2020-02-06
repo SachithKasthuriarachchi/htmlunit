@@ -26,7 +26,7 @@ import java.util.List;
 import java.util.Locale;
 import java.util.Set;
 
-import org.apache.commons.io.FileUtils;
+import org.apache.android.commons.io.FileUtils;
 import org.apache.commons.text.StringEscapeUtils;
 import org.junit.ComparisonFailure;
 import org.junit.runners.model.FrameworkMethod;

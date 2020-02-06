@@ -19,8 +19,8 @@ import java.io.InputStream;
 import java.io.Serializable;
 import java.util.Locale;
 
-import org.apache.commons.lang3.ArrayUtils;
-import org.apache.commons.lang3.StringUtils;
+import org.apache.android.commons.lang3.ArrayUtils;
+import org.apache.android.commons.lang3.StringUtils;
 
 import com.gargoylesoftware.htmlunit.html.DomElement;
 import com.gargoylesoftware.htmlunit.html.HTMLParser;
