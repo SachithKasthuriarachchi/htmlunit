@@ -45,7 +45,7 @@
         	<p>
         		The package used to parse the HTML has the ability to report the problems it encounters while parsing source.  
         		These messages may be programmatically catched or easily logged to the 
-        		"com.gargoylesoftware.htmlunit.html.HTMLParserListener" log for instance by calling:
+        		"HTMLParserListener" log for instance by calling:
         		<source><![CDATA[
 final WebClient webClient = new WebClient();
 webClient.setHTMLParserListener(HTMLParserListener.LOG_REPORTER);]]></source>
