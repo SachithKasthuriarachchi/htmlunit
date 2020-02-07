@@ -14,8 +14,8 @@
                 to have in your classpath.
             </p>
             <p>
-                The class com.gargoylesoftware.htmlunit.WebClient is the
-                main starting point.  This simulates a web browser and will be used to execute
+                The class com.android.gargoylesoftware.htmlunit.WebClient is the
+                main starting point. This simulates a web browser and will be used to execute
                 all of the tests.
             </p>
             <p>
@@ -24,9 +24,9 @@
             </p>
             <p>
                 In the first sample, we create the web client and have it load the homepage from the HtmlUnit website.
-                We then verify that this page has the correct title.  Note that getPage() can return different types
-                of pages based on the content type of the returned data.  In this case we are expecting a content
-                type of text/html so we cast the result to an com.gargoylesoftware.htmlunit.html.HtmlPage.
+                We then verify that this page has the correct title. Note that getPage() can return different types
+                of pages based on the content type of the returned data. In this case we are expecting a content
+                type of text/html so we cast the result to an com.android.gargoylesoftware.htmlunit.html.HtmlPage.
             </p>
             <source><![CDATA[
 @Test
@@ -76,7 +76,7 @@ public void submittingForm() throws Exception {
         <section name="Imitating a specific browser">
             <p>
                 Often you will want to simulate a specific browser. This is done by passing a
-                com.gargoylesoftware.htmlunit.BrowserVersion into the WebClient constructor.
+                com.android.gargoylesoftware.htmlunit.BrowserVersion into the WebClient constructor.
                 Constants have been provided for some common browsers but you can create your own specific
                 version by instantiating a BrowserVersion.
             </p>

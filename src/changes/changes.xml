@@ -142,7 +142,7 @@
                 Samples on page Get Started updated.
             </action>
             <action type="fix" dev="rbri" issue="1946">
-                NPE in com.gargoylesoftware.htmlunit.html.HtmlPage.cleanUp().
+                NPE in com.android.gargoylesoftware.htmlunit.html.HtmlPage.cleanUp().
             </action>
             <action type="add" dev="rbri">
                 JavaScript: URLSearchParams implementation finished (entries(), keys(), values()).
@@ -806,7 +806,8 @@
                 Computing of the current css styles now takes mouseOver into account.
             </action>
             <action type="fix" dev="rbri">
-                IndexOutofRangeException fixed in com.gargoylesoftware.htmlunit.attachment.Attachment.getSuggestedFilename().
+                IndexOutofRangeException fixed in
+                com.android.gargoylesoftware.htmlunit.attachment.Attachment.getSuggestedFilename().
             </action>
             <action type="fix" dev="rbri">
                 JavaScript: scrollHeight, scrollWidth implementation improved.
@@ -2088,8 +2089,8 @@
                 Many minor fixes for the screen object (setters implemented, more testcases, Chrome support added).
             </action>
             <action type="update" dev="rbri">
-                ProxyAutoConfig package fixed (moved from com.gargoylesoftware.htmlunit.javascript to
-                com.gargoylesoftware.htmlunit). There is still a deprecated class at the original
+                ProxyAutoConfig package fixed (moved from com.android.gargoylesoftware.htmlunit.javascript to
+                com.android.gargoylesoftware.htmlunit). There is still a deprecated class at the original
                 location for backward compatibility.
             </action>
             <action type="fix" dev="rbri" issue="1628">
@@ -2917,7 +2918,7 @@
                 JavaScript: adjust availability of window.console (Firefox 4+, IE9+ and Chrome).
             </action>
             <action type="fix" dev="mguillem">
-                Fixed typo in method names of com.gargoylesoftware.htmlunit.WebConsole.Formatter.
+                Fixed typo in method names of com.android.gargoylesoftware.htmlunit.WebConsole.Formatter.
             </action>
             <action type="add" dev="asashour">
                 JavaScript: add document.charset, .characterSet, .defaultCharset and .inputEncoding.
@@ -3744,7 +3745,7 @@
             </action>
             <action type="fix" dev="rbri" issue="1267">
                 INCOMPATIBLE CHANGE: The whole construction/setup of the AbstractHttpClient is now done
-                by the factory method com.gargoylesoftware.htmlunit.HttpWebConnection.createHttpClient().
+                by the factory method com.android.gargoylesoftware.htmlunit.HttpWebConnection.createHttpClient().
                 Only the setup of our cookie spec factory is done outside this call because this is
                 really required later on. This gives you more flexibility setting up your own client.
                 If you already do this, please check your implementation for compatibility.
@@ -6946,7 +6947,8 @@
                 uses of Map.Entry with HtmlAttr.  Add HtmlAttr.getName.  (#1747878).
             </action>
             <action type="add" dev="asashour" issue="359">
-                New interface com.gargoylesoftware.htmlunit.OnbeforeunloadHandler with associated WebClient getter and setter, to support 'onbeforeunload' event (#1498419).
+                New interface com.android.gargoylesoftware.htmlunit.OnbeforeunloadHandler with associated WebClient
+                getter and setter, to support 'onbeforeunload' event (#1498419).
             </action>
             <action type="add" dev="asashour">
                 JavaScript: document.getElementById() must not return elements added to newly created ones (not yet added to document).
@@ -8233,8 +8235,8 @@
                 ImmediateRefreshHandler (the new default) and ThreadedRefreshHandler.
             </action>
             <action type="update" dev="bradclarke" issue="1144103" due-to="Daniel Gredler">
-                INCOMPATIBLE CHANGE: com.gargoylesoftware.htmlunit.CredentialProvider has been removed.
-                You should now use org.apache.commons.httpclient.auth.CredentialsProvider instead.
+                INCOMPATIBLE CHANGE: com.android.gargoylesoftware.htmlunit.CredentialProvider has been removed.
+                You should now use org.apache.android.commons.httpclient.auth.CredentialsProvider instead.
                 This patch should allow support for NTLM and Digest authentication as well as
                 proxy authentication.
             </action>

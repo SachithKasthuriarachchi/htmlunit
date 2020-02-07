@@ -45,7 +45,7 @@ function someFunction() {
 }]]></source>
             </p>
             <p>
-                Ensure you are using HtmlUnit with the same simulated <a href="http://htmlunit.sourceforge.net/apidocs/com/gargoylesoftware/htmlunit/WebClient.html#WebClient(com.gargoylesoftware.htmlunit.BrowserVersion)">
+                Ensure you are using HtmlUnit with the same simulated <a href="http://htmlunit.sourceforge.net/apidocs/com/gargoylesoftware/htmlunit/WebClient.html#WebClient(com.android.gargoylesoftware.htmlunit.BrowserVersion)">
                 BrowserVersion</a> as the real browser.
             </p>
             <p>

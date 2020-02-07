@@ -20,11 +20,11 @@ import java.util.Arrays;
 import org.apache.android.commons.logging.Log;
 import org.apache.android.commons.logging.LogFactory;
 
-import com.gargoylesoftware.htmlunit.Page;
-import com.gargoylesoftware.htmlunit.ScriptResult;
-import com.gargoylesoftware.htmlunit.html.HtmlPage;
-import com.gargoylesoftware.htmlunit.javascript.host.Element;
-import com.gargoylesoftware.htmlunit.javascript.host.Window;
+import com.android.gargoylesoftware.htmlunit.Page;
+import com.android.gargoylesoftware.htmlunit.ScriptResult;
+import com.android.gargoylesoftware.htmlunit.html.HtmlPage;
+import com.android.gargoylesoftware.htmlunit.javascript.host.Element;
+import com.android.gargoylesoftware.htmlunit.javascript.host.Window;
 
 import net.sourceforge.htmlunit.corejs.javascript.ConsString;
 import net.sourceforge.htmlunit.corejs.javascript.Context;
